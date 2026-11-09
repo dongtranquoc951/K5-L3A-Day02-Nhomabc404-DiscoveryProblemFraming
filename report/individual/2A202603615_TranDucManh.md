@@ -160,29 +160,24 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
-
+| Pitch Problem Card | Trình bày Problem Card #1 (Bãi giữ xe) và phân tích các bài toán cá nhân đã chuẩn bị ở CP2. | Đóng góp thêm góc nhìn thực tế về quy trình có yếu tố lặp lại cao vào danh sách thảo luận của nhóm. |
+| Phản biện bài của bạn khác | Đặt câu hỏi phản biện: "Liệu bài toán này dùng phương án phân nhánh thủ công (Rule-based) đã giải quyết được chưa mà phải cần đến AI?" | Giúp nhóm nhận diện rõ ranh giới giữa tự động hóa thông thường và bài toán cần can thiệp thông minh. |
+| Nhận phản biện | Tiếp nhận câu hỏi về tính khả thi của dữ liệu đầu vào và các trường hợp ngoại lệ (Edge cases). | Đề xuất giải pháp dự phòng (fallback) để quy trình không bị gián đoạn khi hệ thống gặp lỗi. |
+| Gom cluster / cây OST | Cùng nhóm phân loại các ý kiến khảo sát thành 2 nhánh chính: Tốc độ xử lý quy trình và Trải nghiệm của người dùng trực tiếp. | Giúp định hình cấu trúc sơ đồ cây cơ hội (Opportunity Solution Tree) của nhóm. |
+| Chọn candidate problem | Thảo luận, bỏ phiếu cùng nhóm và đồng thuận chốt bài toán được chọn ghi trong group_report.md. | Nhóm thống nhất 100% hướng đi để tiến hành khảo sát thực tế ở CP4. |
+| Kiểm chứng / research | Tham gia xây dựng câu hỏi phỏng vấn thực tế và khảo sát đối tượng chịu ảnh hưởng trực tiếp (Actor). | Thu thập bằng chứng thực tế (survey/interview evidence) đưa vào thư mục assets của nhóm. |
+| Quy trình nhóm | Đóng góp hoàn thiện các bước trong luồng As-is (hiện tại) và phác thảo các điểm nghẽn (bottlenecks). | Giúp vẽ sơ đồ quy trình To-be rõ ràng, làm rõ bước nào người làm và bước nào máy hỗ trợ. |
+| Problem Statement | Cùng nhóm rà soát câu Problem Statement v0: kiểm tra Actor, Metric đo lường và ranh giới (Boundary). | Đảm bảo các chỉ số đo lường (Success metrics) có baseline và target định lượng rõ ràng. |
+| Mức can thiệp AI | Phân tích 4 mức (No AI, Rule, Workflow, Agent) và đánh giá 4 rủi ro sản phẩm (Value, Usability, Feasibility, Viability). | Thống nhất mức can thiệp phù hợp nhất, tránh đưa AI vào những khâu không cần thiết. |
+| Quyết định | Tham gia thảo luận và chốt quyết định cuối cùng của nhóm (ghi tại group_report.md và TEAM.md). | Báo cáo nhóm có lập luận chặt chẽ, đầy đủ căn cứ thực nghiệm. |
 ---
 
 ## 5. Dùng AI
-
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 | Gợi ý thêm các góc nhìn về lăng kính "Cần đọc, tổng hợp" và "Pain từ người khác". | Mở rộng nhanh các tình huống thực tế thường gặp. | Gợi ý một số bài toán quá chung chung (như tự động lập kế hoạch du lịch cá nhân). | Loại bỏ các ý chung chung, chỉ giữ lại các bài toán có thể đo lường thời gian và tần suất thật. |
+| CP2 | Nhờ phản biện các giả định trong Problem Card và tìm điểm yếu của quy trình. | Chỉ ra các lỗ hổng như chưa tách rõ bước nghẽn thao tác và nguy cơ ảo giác số liệu. | Thường vội vàng đề xuất áp dụng ngay AI Agent phức tạp dù quy trình chưa cần thiết. | Bổ sung phương án không dùng AI (No-AI baseline) và thu hẹp ranh giới (boundary) bài toán. |
+| CP6 | Đối chiếu 4 rủi ro sản phẩm (Value, Usability, Feasibility, Viability) theo framework. | Cung cấp cấu trúc checklist phân tích rủi ro đầy đủ, logic. | Đánh giá quá lạc quan về tính khả thi kỹ thuật (Feasibility) mà bỏ qua chi phí triển khai. | Đưa thêm yếu tố chi phí hạ tầng và độ trễ vào phần rủi ro thực tế của nhóm. |
 
 ---
 

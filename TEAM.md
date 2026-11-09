@@ -57,7 +57,15 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - Báo cáo nhóm `report/team/group_report.md`: Mục 2.1 (candidate #1–#3), Mục 3.3 (Research giải pháp đã có), Mục 6 (Mức can thiệp AI: 6.1, 6.2, 6.3, 6.4) và Mục 7 (Problem Statement v1 + tiêu chí đánh giá).
+- File bằng chứng trong `report/assets/`:
+  - [report/assets/cp4-research-notes.md](report/assets/cp4-research-notes.md) (ghi chú trích dẫn và đối chiếu 3 giải pháp ở CP4).
+  - Ảnh chụp màn hình kiểm chứng Research: [cp4-research-slack-workflow.png](report/assets/cp4-research-slack-workflow.png), [cp4-research-notion-qa.png](report/assets/cp4-research-notion-qa.png), [cp4-research-slack-ai.png](report/assets/cp4-research-slack-ai.png).
+  - [report/assets/cp6-eval-samples.md](report/assets/cp6-eval-samples.md) (bộ 10 cặp input/đầu ra mong đợi chấm theo 5 tiêu chí đánh giá ở CP6).
 - Báo cáo cá nhân: `report/individual/2A202603614_NguyenQuangDao.md`.
+- Các mã commit đóng góp chính (tài khoản `NguyenQuangDao`):
+  - `9f186e5`: Khởi tạo báo cáo cá nhân `2A202603614_NguyenQuangDao.md`, hoàn thành Scan problem (CP1) và Top 3 Problem Cards + quy trình nháp (CP2).
+  - `a479858`, `c3f4960`: Cập nhật chi tiết báo cáo cá nhân (CP3–CP5) và thông tin phân công thành viên trong `TEAM.md`.
+  - `1ff0548`: Bổ sung bộ bằng chứng trong `report/assets/` (`cp4-research-notes.md`, 3 ảnh chụp màn hình Research CP4, `cp6-eval-samples.md`), hoàn thiện Reflection (CP7) và cập nhật `group_report.md`, `TEAM.md`.
 
 **Điều mình học được từ phần nhóm:**
 

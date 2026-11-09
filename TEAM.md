@@ -5,8 +5,8 @@
 ## Thông tin nhóm
 
 - Tên nhóm: Nhomabc404
-- Candidate problem nhóm chọn (1 câu): Người được hỏi phải giải thích lại cùng một câu hỏi cho đồng nghiệp, bạn học, khoảng 2 lần/tuần và khoảng 15–30 phút mỗi lần (survey 10 người, ước lượng). *(Bản nháp, chờ nhóm xác nhận.)*
-- Quyết định cuối (Go / Not Yet / No-Go): Go, phạm vi nhỏ (pilot FAQ, No AI) *(bản nháp, chờ nhóm xác nhận)*
+- Candidate problem nhóm chọn (1 câu): Người được hỏi phải giải thích lại cùng một câu hỏi cho đồng nghiệp, bạn học, khoảng 2 lần/tuần và khoảng 15–30 phút mỗi lần (survey 10 người, ước lượng từ khoảng giá trị).
+- Quyết định cuối (Go / Not Yet / No-Go): **Go, phạm vi nhỏ** (pilot FAQ, mức No AI).
 
 ## Thành viên
 

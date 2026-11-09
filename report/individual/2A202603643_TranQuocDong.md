@@ -163,16 +163,16 @@ Chọn sản phẩm và đặt mua.
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card |Đưa ra 3 candidate #10 (khiếu nại sai mô tả), #11 (khó nhận biết đánh giá giả), #12 (mất thời gian so sánh sản phẩm). Pitch ưu tiên candidate #10 và nêu câu hỏi về nguyên nhân chậm: phân loại hay xác minh/phê duyệt. |Ba candidate được ghi tại mục 2.1 báo cáo nhóm; #10 thuộc Cluster B, #11 thuộc Cluster C, #12 thuộc Cluster A. |
+| Phản biện bài của bạn khác | “Với candidate #8, deadline nằm ở ứng dụng nào, mỗi lần tổng hợp mất bao nhiêu phút và khác gì việc ưu tiên công việc hằng sáng?” |Giúp chỉ ra dữ kiện còn thiếu ở #8; báo cáo nhóm ghi #8 chỉ đạt 19/35 điểm. |
+| Nhận phản biện | Với card #10, AI nêu 3 điểm yếu: thiếu bằng chứng cho 10 phút/khiếu nại, chưa chắc bottleneck nằm ở phân loại, và chưa chứng minh cần AI. | đánh dấu thời gian là giả định; đề xuất đo từng bước; ưu tiên thử biểu mẫu/workflow theo quy tắc trước. |
+| Gom cluster / cây OST |Hỗ trợ Hồ Sỹ Tùng ở CP3, đối chiếu các candidate #10–#12 với nhóm vấn đề tương ứng và rà soát cách viết pain thay vì viết sẵn giải pháp. |Báo cáo nhóm có 4 cluster A–D và OST với 1 outcome, 4 opportunity (mục 2.2–2.3). |
+| Chọn candidate problem |Hỗ trợ điều phối việc so sánh shortlist #5, #8, #15 theo 7 tiêu chí; ưu tiên chọn vấn đề có actor, pain, bằng chứng và khả năng thử giải pháp đơn giản. |Candidate #5 “giải thích lại cùng một câu hỏi” đứng đầu 30/35 điểm, so với #15 là 24 và #8 là 19. |
+| Kiểm chứng / research |Rà soát tính thuyết phục của survey |Nhóm giữ rõ hạn chế mẫu 10 người, thiếu câu hỏi mở và chưa có quan sát hành vi |
+| Quy trình nhóm |đối chiếu quy trình As-Is và To-Be của candidate #5 với bottleneck |Quy trình 4 bước hiện tại và FAQ No AI tương lai được trình bày ở mục 4 |
+| Problem Statement |Hỗ trợ rà soát PS v0 ở CP5: cần rõ actor, bottleneck, baseline, cách đo và boundary; theo dõi thay đổi v0 → v1 sau survey. |Baseline từ giả định 30–60 phút/lần được điều chỉnh về mức phổ biến 15–30 phút/lần |
+| Mức can thiệp AI |đối chiếu phương án No AI, Rule, Workflow, Agent với độ mơ hồ và độ phức tạp. |Nhóm chọn No AI (FAQ/tin ghim), chỉ cân nhắc mức cao hơn nếu pilot cho thấy FAQ không đủ. |
+| Quyết định |Hỗ trợ Nguyễn Văn Ngọc Sơn rà soát 4 rủi ro Value, Usability, Feasibility, Viability |Quyết định nhóm hiện là Go phạm vi nhỏ, pilot FAQ 5 câu hỏi phổ biến trong 2 tuần, theo dõi và đánh giá tiếp sau 4 tuần |
 
 ---
 
@@ -180,12 +180,12 @@ Chọn sản phẩm và đặt mua.
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan |Gợi ý loại bỏ vấn đề thứ 8 |Hỗ trợ diễn đạt pain, actor và dấu hiệu cần thu thập theo cấu trúc CP1. |Dễ đưa ra con số giả định như thể là dữ liệu thật; một số gợi ý nghiêng về tính năng AI thay vì vấn đề. |Chỉ giữ số liệu ở dạng chỉ số cần kiểm chứng, không tuyên bố đã khảo sát; bỏ qua hướng tự động kết luận hàng giả do rủi ro cho người bán. |
+| CP2 Problem Card |k |k |k |k |
+| CP4 Research |dùng AI để gợi ý câu hỏi kiểm tra độ mạnh/yếu của bằng chứng survey. |Nhắc phân biệt câu trả lời về ý định tương lai với hành vi thực tế. |AI có thể kết luận “7/10 sẽ dùng FAQ” từ câu “sẵn sàng dùng”, dù chưa có pilot. |Trong phần phản biện, chỉ coi 7/10 là ý định được báo cáo |
+| CP5 Quy trình |dùng AI rà soát logic giữa quy trình trước/sau và bottleneck. |Dễ phát hiện bước không có actor, input/output hoặc thiếu nhánh |AI có thể coi mục tiêu ≤ 5 phút là kết quả đã đạt, hoặc lẫn baseline 30–60 phút với số liệu sau survey. |Giữ phân biệt rõ baseline khảo sát, mục tiêu đề xuất và thời gian chưa đo |
+| CP5–6 Problem Statement |dùng AI kiểm tra đủ các trường PS và so sánh v0/v1. |Hữu ích khi rà soát actor, bottleneck, impact, metric, boundary. |Có thể phóng đại 10 người thành đại diện cho mọi người dùng |Giới hạn kết luận trong mẫu 10 người |
+| CP6 Mức can thiệp / quyết định | |Làm rõ tại sao No AI có thể phù hợp hơn Agent ở quy mô nhỏ. |AI dễ ưu tiên Agent chỉ vì bài học liên quan AI, hoặc coi ngưỡng pilot là bằng chứng hiệu quả. |Giữ quyết định Go phạm vi nhỏ |
 
 ---
 
@@ -194,18 +194,35 @@ Chọn sản phẩm và đặt mua.
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Nhận ra được 1 số thiếu sót về cost của dự án hiện tại, có thêm góc nhìn mới về các dự án mà các nhóm đưa ra
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+k
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+k
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+k
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+**6.5. Điều khó nhất khi viết Problem Statement là gì?** 
+k
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+k
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Problem: Nhóm xác định vấn đề là người được hỏi phải giải thích lại cùng một câu hỏi cho đồng nghiệp hoặc bạn học nhiều lần, gây lãng phí thời gian.
+
+Quy trình: Hiện tại, người hỏi đặt câu hỏi, người được hỏi tìm lại thông tin và giải thích từ đầu; nhóm đề xuất xây dựng trang FAQ để người hỏi có thể tự tra cứu trước.
+
+Metric: Theo khảo sát 10 người, thời gian giải thích phổ biến là 15–30 phút/lần, với tần suất ước lượng khoảng 2 lần/tuần; nhóm đặt mục tiêu giảm thời gian tìm câu trả lời và số lần phải giải thích lại.
+
+Boundary: Hệ thống chỉ cung cấp những câu trả lời đã được xác minh trong FAQ; các câu hỏi chưa có thông tin hoặc trường hợp phức tạp vẫn cần con người xử lý.
+
+Mức can thiệp AI: Nhóm lựa chọn No AI vì vấn đề có thể giải quyết trước bằng trang FAQ đơn giản, chưa cần sử dụng chatbot hay AI Agent.
+
+Quyết định: Nhóm chọn Go với phạm vi nhỏ, thử nghiệm FAQ trong 2 tuần với 5 câu hỏi phổ biến nhất, sau đó đánh giá hiệu quả thực tế trước khi mở rộng hoặc cân nhắc ứng dụng AI.
 
 ---
 

@@ -171,6 +171,10 @@ Tổng hợp:
 
 *Cả 3 link đã được mở và đối chiếu nội dung trang. Trang Notion có tiêu đề hiển thị là "Get answers about work content faster with Notion Agent". Link của Slack có bản ngôn ngữ khác, nội dung có thể khác nhau chút.*
 
+**Bằng chứng kiểm chứng Research trong `report/assets/`:**
+- Ghi chú trích dẫn và phân tích chi tiết: [cp4-research-notes.md](../assets/cp4-research-notes.md)
+- Ảnh chụp màn hình đối chiếu: [Slack Workflow Builder](../assets/cp4-research-slack-workflow.png) · [Notion Q&A / Notion Agent](../assets/cp4-research-notion-qa.png) · [Slack AI](../assets/cp4-research-slack-ai.png)
+
 ---
 
 ## 4. Quy trình trước/sau (CP5)
@@ -298,7 +302,7 @@ Vì sao: Cùng một câu hỏi lặp lại, nên câu trả lời đã biết v
 | **Impact** | Trung bình khoảng 65 phút/tuần/người, từ khoảng 4 lần mỗi 2 tuần × khoảng 25 phút/lần (ước lượng từ khoảng giá trị giữa của survey). Trưởng nhóm và kỹ sư phần mềm ở mức cao nhất. |
 | **Success Metric** (baseline → target, cách đo) | Thời gian người được hỏi bỏ ra mỗi lần bị hỏi lại câu đã có trong FAQ: từ khoảng 15–30 phút xuống ≤ 5 phút. Số lần bị hỏi lại câu đã có: từ khoảng 1–2 lần/tuần xuống ≤ 1 lần/2 tuần (mục tiêu đề xuất). Cách đo: ghi nhận trong 2 tuần trước và 2 tuần sau khi có FAQ. |
 | **Boundary** | Chưa dùng AI. Nếu sau này thêm AI, chỉ được tìm trong FAQ đã được người duyệt, không tự trả lời ngoài FAQ, câu không có trong FAQ chuyển cho người. Người duy trì FAQ rà nội dung hằng tuần. |
-| **AI intervention point** | Chưa có ở phiên bản này (No AI). Điểm duy nhất có thể cân nhắc về sau: bước "tìm mục FAQ phù hợp", nếu FAQ lớn và người hỏi khó tìm. |
+| **AI intervention point** | **Không có** (vì bài toán nằm ở vùng mơ hồ thấp × vận hành đơn giản, số lượng câu hỏi lặp lại ít và ổn định nên một trang FAQ viết tay đã đủ giải quyết mà chưa cần AI dự đoán hay sinh nội dung; điểm duy nhất chỉ cân nhắc về sau là bước "tìm mục FAQ phù hợp" nếu FAQ quá lớn và người hỏi khó tìm). |
 | **Mức chọn** | No AI |
 | **Rủi ro & người kiểm tra** | FAQ lỗi thời hoặc sai: người duy trì FAQ rà hằng tuần *(chưa xác định ai)*. Người hỏi không chịu tự tra: người được hỏi theo dõi số lần bị hỏi lại. Số liệu thời gian là ước lượng: cần đo thật trong 2 tuần. |
 
@@ -323,6 +327,8 @@ Vì sao: Cùng một câu hỏi lặp lại, nên câu trả lời đã biết v
 | 5 | Cập nhật | Câu hỏi bị hỏi lại ≥ 2 lần được thêm vào FAQ trong vòng 1 tuần | Câu hỏi lặp lại nhưng không được thêm vào |
 
 *Ngưỡng 2 phút, 2 lần và 1 tuần là mục tiêu đề xuất, nhóm chỉnh sau khi có số đo thật.*
+
+**Bộ 10 cặp Eval mẫu (Input / Đầu ra mong đợi — Bonus B3):** Xem chi tiết tại [report/assets/cp6-eval-samples.md](../assets/cp6-eval-samples.md).
 
 ---
 

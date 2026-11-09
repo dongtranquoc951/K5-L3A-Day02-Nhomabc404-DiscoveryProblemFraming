@@ -226,6 +226,20 @@ QUY TRÌNH HIỆN TẠI #3 — TỔNG 66 PHÚT/YÊU CẦU
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
+## 4. Tôi đã tham gia phần nào (CP3 → CP7)
+
+| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
+|---|---|---|
+| **Pitch Problem Card** | Tôi trình bày 3 candidate: #16 – Kiểm thử hồi quy sau khi sửa prompt; #17 – Phân tích nguyên nhân job training/fine-tuning thất bại; #18 – Phân loại lỗi câu trả lời để phản hồi PM/BA. Tôi tập trung trình bày candidate #16, có bottleneck là bước đọc và chấm 20 output, mất 27/62 phút. | Ba candidate được ghi nhận trong bảng Pitch và gom vào Cluster C – Kiểm tra, phát hiện lỗi hoặc sai lệch. Các vấn đề này không được chọn vào shortlist vì phạm vi kỹ thuật chuyên sâu, khó kiểm chứng với nhiều người trong thời gian lab. |
+| **Phản biện bài của bạn khác** | Câu hỏi tôi đã đặt cho Trần Quốc Đông về candidate nhận biết đánh giá giả khi mua hàng online (#11 trong báo cáo nhóm): "Căn cứ nào để xác định một đánh giá là đáng ngờ, và đo mức độ vấn đề bằng gì: số đánh giá đáng ngờ, số khiếu nại sau khi mua, hay kết quả kiểm tra một mẫu đánh giá?" | Câu hỏi cho thấy #11 chưa có bottleneck và cách đo cụ thể (ô Bottleneck của #11 ở mục 2.1 còn trống), nên chưa đủ dữ kiện để vào shortlist. Chưa ghi nhận Đông chỉnh sửa candidate sau câu hỏi. |
+| **Nhận phản biện** | Câu hỏi tôi nhận được: Trong phiên pitch không có thành viên nào đặt câu hỏi trực tiếp cho card của tôi. Phản biện tôi nhận được đến từ AI đóng vai PM hoài nghi ở CP2: đã có công cụ kiểm thử hồi quy prompt, và việc chấm output thủ công lâu có thể do thiếu rubric rõ ràng. | Tôi đã sửa gì: Bổ sung phương án viết rubric pass/fail và thử công cụ eval có sẵn; đổi guardrail thành không bỏ sót regression trong tập đã xác nhận; giữ quyền quyết định phát hành cho con người (mục 3). |
+| **Gom cluster / cây OST** | Tôi tham gia xem xét các candidate theo điểm nghẽn chung. Ba candidate #16, #17, #18 của tôi được đưa vào Cluster C cùng các vấn đề kiểm tra, phát hiện lỗi hoặc sai lệch. | Nhóm xây dựng cây OST với một outcome chung và bốn nhánh opportunity, phân biệt giữa vấn đề thực tế và giải pháp. |
+| **Chọn candidate problem** | Tôi cùng nhóm xem xét và chấm điểm 7 tiêu chí đối với ba candidate trong shortlist: #5 – Giải thích lại cùng một câu hỏi; #8 – Tổng hợp công việc và deadline; #15 – Đọc paper PDF dài. | Nhóm chọn candidate #5 với 30 điểm, cao hơn #15 (24 điểm) và #8 (19 điểm), do actor rõ, có dữ liệu kiểm chứng và phù hợp để thử nghiệm trong phạm vi nhỏ. |
+| **Kiểm chứng / research** | Tôi tham gia xem xét kết quả khảo sát 10 người về việc phải giải thích lại những câu hỏi đã từng được trả lời và hỗ trợ phân tích các giải pháp đã có. | Survey cho thấy 7/10 người mất ít nhất 15 phút/lần nhưng chỉ 3/10 mất 30–60 phút. Nhóm điều chỉnh baseline về khoảng 15–30 phút/lần thay vì giữ giả định ban đầu 30–60 phút, và chuyển quyết định từ Not Yet sang Go phạm vi nhỏ. |
+| **Quy trình nhóm** | Tôi góp ý xác định bottleneck là bước người được hỏi phải giải thích lại từ đầu; xem xét quy trình trước/sau khi sử dụng FAQ và phương án quay về nếu không tìm thấy câu trả lời. | Nhóm xây dựng quy trình tương lai với bước người hỏi tự tìm trong FAQ, người phụ trách kiểm tra và cập nhật nội dung, đồng thời vẫn hỗ trợ trực tiếp khi cần. |
+| **Problem Statement v0 → v1** | Tôi góp ý rằng baseline ban đầu chưa phù hợp kết quả survey và Success Metric không nên chỉ đo thời gian mỗi lần giải thích. | Nhóm điều chỉnh baseline, bổ sung chỉ số theo dõi số lần bị hỏi lại những câu đã có trong FAQ, đồng thời xác định rõ giới hạn và trách nhiệm của con người. |
+| **Mức can thiệp AI** | Tôi tham gia so sánh No AI, Rule, Workflow và Agent, nhấn mạnh việc cần thử phương án FAQ đơn giản trước khi lựa chọn giải pháp phức tạp hơn. | Nhóm lựa chọn **No AI** vì chưa có bằng chứng cho thấy FAQ viết tay không đủ giải quyết vấn đề. |
+| **Quyết định** | Tôi tham gia xem xét bốn rủi ro Value, Usability, Feasibility, Viability và phương án kiểm chứng việc người hỏi có thực sự tự tra cứu hay không. | Nhóm quyết định **Go, phạm vi nhỏ**: pilot FAQ 2 tuần. Ngưỡng dừng: nếu sau 4 tuần số lần bị hỏi lại không giảm thì dừng phương án FAQ, cân nhắc mức Rule hoặc đổi problem (mục 8.2). |
 
 ## 5. Dùng AI
 
@@ -240,6 +254,31 @@ QUY TRÌNH HIỆN TẠI #3 — TỔNG 66 PHÚT/YÊU CẦU
 
 ## 6. Reflection (CP7)
 
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+Trong phần pitch, ba vấn đề tôi đưa ra (#16, #17 và #18 trong báo cáo nhóm) đều liên quan đến công việc kỹ thuật của AI Engineer, nhất là việc kiểm thử sau khi sửa prompt. Khi đối chiếu với candidate của các bạn, tôi thấy vấn đề bị hỏi lại cùng một câu (#5) có phạm vi người gặp rộng hơn và dễ thu thập bằng chứng trong buổi lab.
+
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Trong lúc gom candidate, nhóm nhận thấy một số cách diễn đạt đang nói về giải pháp thay vì nỗi đau thực tế: chẳng hạn “tự động kiểm tra”, “tự động hóa”, “tìm kiếm ảnh” hoặc “tóm tắt paper”. Vì vậy cây OST phải chuyển những ý ấy về vấn đề mà người dùng gặp. Với card kiểm thử prompt của tôi, việc nghĩ ngay đến AI chấm câu trả lời cũng có nguy cơ bỏ qua nguyên nhân đơn giản hơn: chưa có rubric pass/fail rõ ràng.
+
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Ở CP2, khi nhờ AI đóng vai PM hoài nghi để phản biện card kiểm thử hồi quy prompt, tôi nhận được câu hỏi liệu đọc và chấm output tốn thời gian do thiếu công cụ hay do thiếu tiêu chí đánh giá thống nhất. Sau đó tôi thêm việc viết rubric pass/fail và thử công cụ eval có sẵn vào phương án không dùng AI; tôi cũng giữ nguyên ranh giới con người quyết định phát hành. Đây là thay đổi đã được ghi ở Problem Card #1.
+
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Ban đầu nhóm đặt giả định mỗi lần giải thích lại mất 30–60 phút. Survey 10 người cho thấy chỉ 3/10 ở mức này, còn mức 15–30 phút xuất hiện ở 4/10 người. Dù 7/10 nói sẵn sàng dùng FAQ và 3/10 nói “có thể”, đó mới là ý định, chưa chứng minh họ sẽ tự tra cứu. Bởi vậy việc thử FAQ thực tế quan trọng hơn việc chỉ hỏi mọi người có thích ý tưởng hay không.
+
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+Điểm cần cẩn trọng nhất là viết Success Metric mà không đánh đồng ước lượng với dữ liệu đo thực tế. Kết quả survey ghi khoảng thời gian trả lời lại, chưa bấm giờ từng bước trong quy trình. Do đó khoảng 15–30 phút/lần chỉ là mức phổ biến trong mẫu, còn mục tiêu không quá 5 phút hỗ trợ với câu đã có trong FAQ là mục tiêu pilot, chưa phải thành tích đạt được. Ngoài ra, boundary phải nêu rõ câu mới hoặc FAQ chưa đủ thì vẫn chuyển sang con người xử lý.
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+Tôi sẽ ưu tiên thu thập một vài tình huống hỏi lại gần nhất với nội dung câu hỏi, thời gian thực tế và cách mọi người đang xử lý, thay vì chỉ dùng câu hỏi đóng về “sẵn sàng dùng FAQ”. Tôi cũng sẽ đề nghị nhóm xác định người duy trì FAQ trước khi thử nghiệm. Khi phản biện candidate của Trần Quốc Đông về đánh giá giả khi mua hàng trực tuyến, phần cần đào sâu là bằng chứng nào cho phép phân biệt đánh giá đáng ngờ và cách đo vấn đề; cần tránh coi chỉ số dự kiến là dữ liệu đã đo.
+
+**6.7. Hiểu bài:**
+Problem: Nhóm chọn vấn đề phải giải thích lại cùng một câu hỏi cho đồng nghiệp hoặc bạn học; cả 10/10 người trong khảo sát đều từng gặp tình huống này. Quy trình: Người hỏi đặt câu hỏi, người được hỏi nhớ hoặc tìm câu trả lời cũ rồi giải thích lại, trong đó bước giải thích lại từ đầu là bottleneck. Metric: Mức thời gian phổ biến nhất trong mẫu là 15–30 phút/lần (4/10 người), còn mục tiêu thử nghiệm là giảm công sức hỗ trợ xuống không quá 5 phút đối với câu đã có trong FAQ và theo dõi số lần bị hỏi lại. Boundary: FAQ chỉ chứa nội dung đã được người phụ trách kiểm tra, còn câu hỏi mới hoặc chưa được giải đáp phải chuyển cho con người. Mức can thiệp: Nhóm chọn No AI vì chưa có bằng chứng cho thấy FAQ hoặc tin ghim thủ công là không đủ. Quyết định: Nhóm đề xuất Go phạm vi nhỏ, thử FAQ trong 2 tuần; nếu sau 4 tuần số lần hỏi lại vẫn không giảm thì dừng phương án FAQ hiện tại và cân nhắc Rule hoặc đổi hướng.
 
 ## 7. Tài liệu tham khảo
 

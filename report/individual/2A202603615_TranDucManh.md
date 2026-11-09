@@ -61,7 +61,6 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Cảm nhận nhanh | Workflow |
 
 Quy trình nháp hiện tại:
-Quy trình nháp hiện tại:
 
 ```text
 [Xe dừng trước barie] 
@@ -92,7 +91,6 @@ Quy trình nháp hiện tại:
 | Giả thuyết về AI (nếu có) | Tích hợp LLM chatbot hiểu ngôn ngữ tự nhiên để trích xuất ý định (intent) và thời gian khách muốn khám, tự động kết nối API kiểm tra lịch trống và gửi thông báo nhắc lịch tự động qua Zalo OA. |
 | Cảm nhận nhanh | Workflow |
 
-Quy trình nháp hiện tại:
 Quy trình nháp hiện tại:
 
 ```text
@@ -128,7 +126,6 @@ Quy trình nháp hiện tại:
 | Giả thuyết về AI (nếu có) | Áp dụng LLM kết hợp RAG (Retrieval-Augmented Generation) để đọc hiểu định dạng PDF khoa học, tự động điền các trường thông tin (Method, Dataset, SOTA metric) vào bảng so sánh. |
 | Cảm nhận nhanh | Workflow |
 
-Quy trình nháp hiện tại:
 Quy trình nháp hiện tại:
 
 ```text

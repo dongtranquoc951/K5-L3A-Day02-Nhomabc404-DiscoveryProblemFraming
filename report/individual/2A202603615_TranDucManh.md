@@ -186,19 +186,31 @@ Quy trình nháp hiện tại:
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Tôi nhận ra sự khác biệt rất lớn giữa một "ý tưởng nghe có vẻ hay" và một "vấn đề thực tế có điểm nghẽn đo lường được". Khi các bạn chia sẻ về bài toán tóm tắt paper hay gợi ý lịch trình, tôi thấy hầu hết mọi người đều xuất phát từ mong muốn cá nhân chứ chưa chỉ ra được bước nào trong quy trình hiện tại đang gây tốn thời gian nhất. Lắng nghe các góc nhìn đa dạng giúp tôi học được cách bóc tách từng bước thao tác thực tế thay vì chỉ nhìn vào bức tranh chung chung.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có, ngay ở giai đoạn đầu cả nhóm đã lập tức nghĩ đến việc "xây dựng mô hình AI nhận diện biển số xe máy" hoặc "làm app đặt lịch tự động". Nhóm chỉ nhận ra mình bị solution-first khi bắt tay vào vẽ quy trình As-is và đối mặt với câu hỏi: "Nếu không có AI thì người ta đang giải quyết bằng cách nào?". Nhóm đã phải phanh lại, quay về phân tích kỹ bước quẹt thẻ và đối chiếu mắt thường của chú bảo vệ để tìm ra điểm nghẽn thực sự trước khi bàn đến công nghệ.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Tôi đã đổi ý về giả định giải pháp tuyệt đối. Ban đầu khi pitch bài bãi xe, tôi nghĩ chỉ cần lắp camera AI nhận diện tự động là barie có thể mở ngay mà không cần thẻ từ. Nhưng khi nhóm phản biện về trường hợp trời mưa bão, biển số bẩn, hoặc người lạ vào gửi xe, tôi nhận ra AI không thể thay thế 100%. Tôi đã đổi ý và bổ sung cơ chế fallback: chỉ áp dụng AI hỗ trợ trích xuất nhanh, nếu độ tin cậy dưới 90% thì hệ thống lập tức quay về quy trình quẹt thẻ thủ công.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Điều làm tôi bất ngờ nhất là thời gian trễ thực tế không nằm ở khâu quẹt thẻ (chỉ mất 1–2 giây), mà nằm ở khâu mắt thường của bảo vệ phải ngước lên nhìn màn hình rồi nhìn xuống xe để kiểm tra biển số, đặc biệt khi thẻ mờ thì phải gõ tay mất 30–60 giây. Trước đó, tôi cứ tưởng chỉ cần đầu đọc thẻ xịn hơn là giải quyết được, nhưng kiểm chứng cho thấy thao tác đối chiếu của con người mới là nút thắt cổ chai.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Điều khó nhất là xác định ranh giới (Boundary) và chỉ số thành công (Success Metric) có thể đo lường được. Rất dễ rơi vào cái bẫy viết mục tiêu chung chung như "giúp bãi xe thông minh hơn" hoặc "giảm ùn tắc". Nhóm đã phải tranh luận rất nhiều để ép con số về dạng định lượng rõ ràng: giảm thời gian xử lý từ 8s xuống < 2s/xe và khoanh vùng boundary là AI chỉ gợi ý số đọc được chứ không được tự ý quyết định mở barie nếu dữ liệu không khớp.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại, tôi sẽ yêu cầu nhóm đi khảo sát thực địa sớm hơn ngay từ CP1 thay vì ngồi suy đoán trên bàn giấy. Đồng thời, tôi sẽ phản biện nhóm quyết liệt hơn ở các phương án không dùng AI (No-AI baseline), ví dụ như việc chỉ cần kẻ lại vạch phân làn xe ra/vào hợp lý hay thay đầu đọc thẻ tầm xa có thể đã giải quyết được 70% vấn đề mà chi phí rẻ hơn rất nhiều so với việc dựng một hệ thống camera thông minh.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
+**6.7. Hiểu bài:** 
+Chuỗi logic của bài toán nhóm được triển khai chặt chẽ qua 6 bước:
+1. **Problem:** Giờ cao điểm bãi xe bị ùn tắc cục bộ do bảo vệ mất nhiều thời gian quan sát đối chiếu biển số bằng mắt và gõ tay lại khi thẻ bị trầy xước.
+2. **Quy trình:** Tách rõ luồng As-is (khách quẹt thẻ $\to$ bảo vệ nhìn màn hình đối chiếu $\to$ gõ tay nếu lỗi $\to$ bấm mở) và To-be (xe vào $\to$ camera quét OCR biển số tự khớp với thẻ $\to$ bảo vệ chỉ xác nhận ngoại lệ).
+3. **Metric:** Đo lường trực tiếp bằng thời gian xử lý qua cổng giảm từ 8s xuống dưới 2s/xe, và tỷ lệ bảo vệ phải can thiệp gõ tay giảm từ 15% xuống dưới 1%.
+4. **Boundary:** Ranh giới an toàn quy định AI chỉ thực hiện nhận diện và so khớp ký tự; AI không được phép tự động kích hoạt mở barie khi độ tin cậy dưới ngưỡng quy định.
+5. **Mức can thiệp AI:** Chọn mức **Workflow** (quy trình cố định có AI hỗ trợ một mắt xích nhận diện hình ảnh), không dùng Agent vì bài toán mang tính lặp lại cố định, không cần ra quyết định tự chủ đa bước.
+6. **Quyết định:** Kết luận **Not Yet** (hoặc **Go** có điều kiện), vì cần thêm thời gian thử nghiệm thực tế độ chính xác của camera trong điều kiện ban đêm và thời tiết xấu trước khi đầu tư lắp đặt đồng loạt.
 ---
 
 ## 7. Tài liệu tham khảo

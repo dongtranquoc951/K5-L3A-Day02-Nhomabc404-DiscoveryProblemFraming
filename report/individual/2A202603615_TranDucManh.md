@@ -215,4 +215,8 @@ Chuỗi logic của bài toán nhóm được triển khai chặt chẽ qua 6 b�
 
 ## 7. Tài liệu tham khảo
 
--
+- Rob Fitzpatrick, *The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you* (áp dụng 3 nguyên tắc phỏng vấn kiểm chứng hành vi quá khứ thay vì hỏi ý kiến tương lai).
+- Google PAIR, *People + AI Guidebook* (áp dụng 2 câu hỏi thiết kế: Augment vs. Automate và phân tích mức độ nghiêm trọng giữa Báo nhầm vs. Bỏ sót).
+- Slack, "4 simple ways to save time with Workflow Builder": https://slack.com/resources/using-slack/4-simple-ways-to-save-time-with-workflow-builder (tham khảo case study về tự động hóa quy trình trả lời câu hỏi lặp lại).
+- Notion, "Get answers about work content faster with Q&A / Notion Agent": https://www.notion.com/help/guides/get-answers-about-content-faster-with-q-and-a (tham khảo giải pháp trích xuất tri thức từ tài liệu sẵn có).
+- Teresa Torres, *Continuous Discovery Habits* (tham khảo mô hình Opportunity Solution Tree - OST để liên kết Outcome với các Pain Point thực tế).

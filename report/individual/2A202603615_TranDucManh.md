@@ -160,16 +160,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Trình bày Problem Card #1 (Bãi giữ xe) và phân tích các bài toán cá nhân đã chuẩn bị ở CP2. | Đóng góp thêm góc nhìn thực tế về quy trình có yếu tố lặp lại cao vào danh sách thảo luận của nhóm. |
-| Phản biện bài của bạn khác | Đặt câu hỏi phản biện: "Liệu bài toán này dùng phương án phân nhánh thủ công (Rule-based) đã giải quyết được chưa mà phải cần đến AI?" | Giúp nhóm nhận diện rõ ranh giới giữa tự động hóa thông thường và bài toán cần can thiệp thông minh. |
-| Nhận phản biện | Tiếp nhận câu hỏi về tính khả thi của dữ liệu đầu vào và các trường hợp ngoại lệ (Edge cases). | Đề xuất giải pháp dự phòng (fallback) để quy trình không bị gián đoạn khi hệ thống gặp lỗi. |
-| Gom cluster / cây OST | Cùng nhóm phân loại các ý kiến khảo sát thành 2 nhánh chính: Tốc độ xử lý quy trình và Trải nghiệm của người dùng trực tiếp. | Giúp định hình cấu trúc sơ đồ cây cơ hội (Opportunity Solution Tree) của nhóm. |
-| Chọn candidate problem | Thảo luận, bỏ phiếu cùng nhóm và đồng thuận chốt bài toán được chọn ghi trong group_report.md. | Nhóm thống nhất 100% hướng đi để tiến hành khảo sát thực tế ở CP4. |
-| Kiểm chứng / research | Tham gia xây dựng câu hỏi phỏng vấn thực tế và khảo sát đối tượng chịu ảnh hưởng trực tiếp (Actor). | Thu thập bằng chứng thực tế (survey/interview evidence) đưa vào thư mục assets của nhóm. |
-| Quy trình nhóm | Đóng góp hoàn thiện các bước trong luồng As-is (hiện tại) và phác thảo các điểm nghẽn (bottlenecks). | Giúp vẽ sơ đồ quy trình To-be rõ ràng, làm rõ bước nào người làm và bước nào máy hỗ trợ. |
-| Problem Statement | Cùng nhóm rà soát câu Problem Statement v0: kiểm tra Actor, Metric đo lường và ranh giới (Boundary). | Đảm bảo các chỉ số đo lường (Success metrics) có baseline và target định lượng rõ ràng. |
-| Mức can thiệp AI | Phân tích 4 mức (No AI, Rule, Workflow, Agent) và đánh giá 4 rủi ro sản phẩm (Value, Usability, Feasibility, Viability). | Thống nhất mức can thiệp phù hợp nhất, tránh đưa AI vào những khâu không cần thiết. |
-| Quyết định | Tham gia thảo luận và chốt quyết định cuối cùng của nhóm (ghi tại group_report.md và TEAM.md). | Báo cáo nhóm có lập luận chặt chẽ, đầy đủ căn cứ thực nghiệm. |
+| Pitch Problem Card | Trình bày Problem Card #1 về điểm nghẽn đối soát biển số xe tại chốt kiểm soát giờ cao điểm; phân tích As-is 6 bước và chỉ ra bước 4-5 bảo vệ đối chiếu mắt thường và nhập tay gây nghẽn 10-15 phút. | Đưa bài toán có dữ liệu đo lường cụ thể vào vòng bầu chọn; nhóm thống nhất lấy đây làm 1 trong các ứng viên tiềm năng nhất để phản biện. |
+| Phản biện bài của bạn khác | Đặt câu hỏi chất vấn bài toán tóm tắt paper và đặt lịch phòng khám: *"Phương án Form/Calendly hoặc quy tắc phân nhánh thủ công (Rule-based) đã giải quyết được chưa mà phải cần tới AI?"* | Giúp nhóm nhận diện ranh giới giữa tự động hóa thông thường và bài toán cần AI; loại bỏ việc chọn các bài toán bị dư thừa công nghệ. |
+| Nhận phản biện | Tiếp nhận phản biện từ nhóm về rủi ro thời tiết (mưa gió, chói sáng làm camera nhận diện sai). Tôi đề xuất cơ chế Fallback: nếu confidence score < 90% thì giữ nguyên quẹt thẻ thường để bảo vệ không bị động. | Hoàn thiện luồng To-be an toàn, đưa cơ chế xử lý ngoại lệ (Exception Handling) vào phần thiết kế hệ thống của nhóm. |
+| Gom cluster / cây OST | Cùng nhóm gom các phản ánh từ khảo sát thành 2 nhánh cơ hội chính trên cây OST: (1) Rút ngắn thời gian xác thực phương tiện tại cổng và (2) Giảm thiểu rủi ro tráo thẻ/mất trộm xe. | Định hình cấu trúc cây Opportunity Solution Tree rõ ràng, giúp nhóm không bị lan man sang các tính năng phụ như tìm chỗ đỗ xe trống. |
+| Chọn candidate problem | Cùng nhóm cân nhắc 4 tiêu chí (Tính khả thi, Khả năng kiểm chứng Mom Test, Giá trị thực tế, Rủi ro) và bỏ phiếu chọn bài toán bãi giữ xe làm Candidate Problem duy nhất. | Nhóm đạt đồng thuận 100%, ghi nhận quyết định hội tụ vào mục 1 của group_report.md để chuyển sang khảo sát thực địa. |
+| Kiểm chứng / research | Trực tiếp tham gia khảo sát thực địa tại chốt cổng: bấm giờ 20 lượt xe giờ cao điểm và phỏng vấn chú bảo vệ theo 3 nguyên tắc The Mom Test (hỏi về sự cố quá khứ, không hỏi ý kiến tương lai). | Thu được dữ liệu thật: thời gian quẹt thẻ bình thường mất 2-3s, nhưng khi gặp thẻ mờ phải gõ tay mất 35-50s/xe; bổ sung bằng chứng vào thư mục report/assets. |
+| Quy trình nhóm | Tham gia vẽ và bóc tách luồng As-is (6 bước thủ công) và xây dựng luồng To-be tích hợp OCR tự động so khớp biển số với thẻ từ. | Xác định chính xác vị trí can thiệp công nghệ, phân định rõ khâu nào máy tự động xử lý và khâu nào giữ lại con người giám sát. |
+| Problem Statement | Rà soát và hoàn thiện câu Problem Statement v0 cùng nhóm: chuẩn hóa Actor (bảo vệ trực chốt), chỉ số thành công (giảm từ 8s xuống < 2s/xe, gõ tay < 1%), và ranh giới Boundary. | Chốt được phát biểu bài toán chặt chẽ, có baseline và target định lượng, giúp nhóm không bị lạc đề ở khâu giải pháp. |
+| Mức can thiệp AI | Phân tích 4 mức (No AI, Rule, Workflow, Agent) và đối chiếu 4 rủi ro sản phẩm; bảo vệ quan điểm chọn mức **Workflow** thay vì Agent vì quy trình bãi xe là tuần tự, không cần ra quyết định tự chủ đa bước. | Nhóm thống nhất chọn mức Workflow trong báo cáo, tránh được lỗi lạm dụng thuật ngữ "AI Agent" khi quy trình nghiệp vụ chưa cần thiết. |
+| Quyết định | Tham gia phân tích các rủi ro kỹ thuật (mưa, góc quay) và chi phí camera để cùng nhóm biểu quyết đưa ra quyết định cuối cùng (Go có điều kiện / Not Yet). | Đóng góp lập luận bảo vệ kết luận nhóm tại mục 9 của group_report.md, tạo tính thuyết phục cao khi bảo vệ trước giảng viên. |
 ---
 
 ## 5. Dùng AI
@@ -186,21 +186,37 @@ Quy trình nháp hiện tại:
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Tôi nhận ra sự khác biệt rất lớn giữa một "ý tưởng nghe có vẻ hay" và một "vấn đề thực tế có điểm nghẽn đo lường được". Khi các bạn chia sẻ về bài toán tóm tắt paper hay gợi ý lịch trình, tôi thấy hầu hết mọi người đều xuất phát từ mong muốn cá nhân chứ chưa chỉ ra được bước nào trong quy trình hiện tại đang gây tốn thời gian nhất. Lắng nghe các góc nhìn đa dạng giúp tôi học được cách bóc tách từng bước thao tác thực tế thay vì chỉ nhìn vào bức tranh chung chung.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có, ngay ở giai đoạn đầu cả nhóm đã lập tức nghĩ đến việc "xây dựng mô hình AI nhận diện biển số xe máy" hoặc "làm app đặt lịch tự động". Nhóm chỉ nhận ra mình bị solution-first khi bắt tay vào vẽ quy trình As-is và đối mặt với câu hỏi: "Nếu không có AI thì người ta đang giải quyết bằng cách nào?". Nhóm đã phải phanh lại, quay về phân tích kỹ bước quẹt thẻ và đối chiếu mắt thường của chú bảo vệ để tìm ra điểm nghẽn thực sự trước khi bàn đến công nghệ.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Tôi đã đổi ý về giả định giải pháp tuyệt đối. Ban đầu khi pitch bài bãi xe, tôi nghĩ chỉ cần lắp camera AI nhận diện tự động là barie có thể mở ngay mà không cần thẻ từ. Nhưng khi nhóm phản biện về trường hợp trời mưa bão, biển số bẩn, hoặc người lạ vào gửi xe, tôi nhận ra AI không thể thay thế 100%. Tôi đã đổi ý và bổ sung cơ chế fallback: chỉ áp dụng AI hỗ trợ trích xuất nhanh, nếu độ tin cậy dưới 90% thì hệ thống lập tức quay về quy trình quẹt thẻ thủ công.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Điều làm tôi bất ngờ nhất là thời gian trễ thực tế không nằm ở khâu quẹt thẻ (chỉ mất 1–2 giây), mà nằm ở khâu mắt thường của bảo vệ phải ngước lên nhìn màn hình rồi nhìn xuống xe để kiểm tra biển số, đặc biệt khi thẻ mờ thì phải gõ tay mất 30–60 giây. Trước đó, tôi cứ tưởng chỉ cần đầu đọc thẻ xịn hơn là giải quyết được, nhưng kiểm chứng cho thấy thao tác đối chiếu của con người mới là nút thắt cổ chai.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Điều khó nhất là xác định ranh giới (Boundary) và chỉ số thành công (Success Metric) có thể đo lường được. Rất dễ rơi vào cái bẫy viết mục tiêu chung chung như "giúp bãi xe thông minh hơn" hoặc "giảm ùn tắc". Nhóm đã phải tranh luận rất nhiều để ép con số về dạng định lượng rõ ràng: giảm thời gian xử lý từ 8s xuống < 2s/xe và khoanh vùng boundary là AI chỉ gợi ý số đọc được chứ không được tự ý quyết định mở barie nếu dữ liệu không khớp.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại, tôi sẽ yêu cầu nhóm đi khảo sát thực địa sớm hơn ngay từ CP1 thay vì ngồi suy đoán trên bàn giấy. Đồng thời, tôi sẽ phản biện nhóm quyết liệt hơn ở các phương án không dùng AI (No-AI baseline), ví dụ như việc chỉ cần kẻ lại vạch phân làn xe ra/vào hợp lý hay thay đầu đọc thẻ tầm xa có thể đã giải quyết được 70% vấn đề mà chi phí rẻ hơn rất nhiều so với việc dựng một hệ thống camera thông minh.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
+**6.7. Hiểu bài:** 
+Chuỗi logic của bài toán nhóm được triển khai chặt chẽ qua 6 bước:
+1. **Problem:** Giờ cao điểm bãi xe bị ùn tắc cục bộ do bảo vệ mất nhiều thời gian quan sát đối chiếu biển số bằng mắt và gõ tay lại khi thẻ bị trầy xước.
+2. **Quy trình:** Tách rõ luồng As-is (khách quẹt thẻ $\to$ bảo vệ nhìn màn hình đối chiếu $\to$ gõ tay nếu lỗi $\to$ bấm mở) và To-be (xe vào $\to$ camera quét OCR biển số tự khớp với thẻ $\to$ bảo vệ chỉ xác nhận ngoại lệ).
+3. **Metric:** Đo lường trực tiếp bằng thời gian xử lý qua cổng giảm từ 8s xuống dưới 2s/xe, và tỷ lệ bảo vệ phải can thiệp gõ tay giảm từ 15% xuống dưới 1%.
+4. **Boundary:** Ranh giới an toàn quy định AI chỉ thực hiện nhận diện và so khớp ký tự; AI không được phép tự động kích hoạt mở barie khi độ tin cậy dưới ngưỡng quy định.
+5. **Mức can thiệp AI:** Chọn mức **Workflow** (quy trình cố định có AI hỗ trợ một mắt xích nhận diện hình ảnh), không dùng Agent vì bài toán mang tính lặp lại cố định, không cần ra quyết định tự chủ đa bước.
+6. **Quyết định:** Kết luận **Not Yet** (hoặc **Go** có điều kiện), vì cần thêm thời gian thử nghiệm thực tế độ chính xác của camera trong điều kiện ban đêm và thời tiết xấu trước khi đầu tư lắp đặt đồng loạt.
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Rob Fitzpatrick, *The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you* (áp dụng 3 nguyên tắc phỏng vấn kiểm chứng hành vi quá khứ thay vì hỏi ý kiến tương lai).
+- Google PAIR, *People + AI Guidebook* (áp dụng 2 câu hỏi thiết kế: Augment vs. Automate và phân tích mức độ nghiêm trọng giữa Báo nhầm vs. Bỏ sót).
+- Slack, "4 simple ways to save time with Workflow Builder": https://slack.com/resources/using-slack/4-simple-ways-to-save-time-with-workflow-builder (tham khảo case study về tự động hóa quy trình trả lời câu hỏi lặp lại).
+- Notion, "Get answers about work content faster with Q&A / Notion Agent": https://www.notion.com/help/guides/get-answers-about-content-faster-with-q-and-a (tham khảo giải pháp trích xuất tri thức từ tài liệu sẵn có).
+- Teresa Torres, *Continuous Discovery Habits* (tham khảo mô hình Opportunity Solution Tree - OST để liên kết Outcome với các Pain Point thực tế).

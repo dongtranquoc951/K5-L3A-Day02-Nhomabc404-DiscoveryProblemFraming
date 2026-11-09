@@ -7,8 +7,8 @@
 
 - Tên nhóm: Nhomabc404
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu): Người được hỏi phải giải thích lại cùng một câu hỏi cho đồng nghiệp, bạn học, khoảng 2 lần/tuần và khoảng 15–30 phút mỗi lần (survey 10 người, ước lượng từ khoảng giá trị). *(Bản nháp, chờ nhóm xác nhận.)*
-- Quyết định cuối: Go, phạm vi nhỏ (pilot FAQ, mức No AI) *(bản nháp, chờ nhóm xác nhận)*
+- Candidate problem được chọn (1 câu): Người được hỏi phải giải thích lại cùng một câu hỏi cho đồng nghiệp, bạn học, khoảng 2 lần/tuần và khoảng 15–30 phút mỗi lần (survey 10 người, ước lượng từ khoảng giá trị).
+- Quyết định cuối: **Go, phạm vi nhỏ** (pilot FAQ, mức No AI).
 
 ---
 
@@ -18,26 +18,26 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | Nguyễn Quang Đạo | Kiểm tra các điều khoản bất lợi trong hợp đồng dịch vụ so với quy định chuẩn của công ty | — | — | |
-| 2 | Nguyễn Quang Đạo | Đọc hiểu và phân loại tin nhắn/email phàn nàn của khách hàng để chuyển đúng người | — | — | |
-| 3 | Nguyễn Quang Đạo | Kiểm tra định dạng và hạn nộp bài tập của sinh viên trước khi khóa cổng nộp bài | Sinh viên | — | |
-| 4 | Đỗ Cao Cường | Chọn món và đặt cơm trưa trên Grab trong giờ nghỉ ngắn: khi xong việc lúc 12h mà giờ nghỉ chỉ có ít phút, muốn có cơm đúng lúc để kịp ăn và quay lại làm việc | Nhân viên văn phòng có giờ nghỉ trưa ngắn | Đặt sau 12h vì trong giờ làm không để ý tới việc đặt, nên 30–45 phút chọn và chờ giao rơi vào giờ nghỉ (ước lượng) | |
-| 5 | Đỗ Cao Cường | Giải thích lại cùng một câu hỏi cho đồng nghiệp, bạn học: muốn có sẵn chỗ để họ tự tra, không phải giải thích lại từ đầu | Tôi (người được hỏi), đồng nghiệp và bạn học | Giải thích lại từ đầu, khoảng 30 phút–1 giờ/lần, 1–2 lần/tuần (ước lượng) | |
-| 6 | Đỗ Cao Cường | Sắp xếp ưu tiên công việc mỗi sáng: muốn biết ngay việc nào làm trước, không mất thời gian sắp xếp lại | Người đi làm tự sắp xếp công việc | Khoảng 15 phút mỗi sáng, 4–5 ngày/tuần (ước lượng); bước nghẽn chưa xác định | |
-| 7 | Hồ Sỹ Tùng | Tìm kiếm ảnh chụp màn hình theo nội dung trong điện thoại | Người dùng điện thoại | — | |
-| 8 | Hồ Sỹ Tùng | Tổng hợp công việc và deadline từ nhiều ứng dụng khác nhau | — | Công việc và deadline nằm rải ở nhiều ứng dụng | |
-| 9 | Hồ Sỹ Tùng | Tổng hợp ưu và nhược điểm sản phẩm từ nhiều đánh giá online | Người mua / người đọc đánh giá | Ưu, nhược điểm nằm rải trong nhiều đánh giá | |
-| 10 | Trần Quốc Đông | Khiếu nại sản phẩm không đúng mô tả được xử lý chậm | — | Xử lý khiếu nại chậm | |
-| 11 | Trần Quốc Đông | Người mua khó nhận biết đánh giá giả | Người mua | — | |
-| 12 | Trần Quốc Đông | Người mua mất nhiều thời gian so sánh sản phẩm | Người mua | Mất nhiều thời gian so sánh | |
-| 13 | Trần Đức Mạnh | Quản lý và đối soát xe ra vào bãi xe giờ cao điểm (Lặp lại) | — | Ùn ứ giờ cao điểm, nhầm lẫn vé xe | |
-| 14 | Trần Đức Mạnh | Tự động hóa tiếp nhận và điều phối lịch hẹn phòng khám (Tốn thời gian) | — | Trùng lịch, bệnh nhân quên hoặc hủy sát giờ | |
-| 15 | Trần Đức Mạnh | Tóm tắt và trích xuất phương pháp/dataset từ paper PDF (Cần đọc, tổng hợp) | Sinh viên làm đồ án | Đọc lướt tài liệu kỹ thuật dài, tốn hàng chục giờ | |
-| 16 | Nguyễn Văn Ngọc Sơn | Khi chỉnh sửa prompt của tính năng sinh câu trả lời tự động, muốn nhận ra những câu hỏi trước đây trả lời đúng nhưng bản mới lại trả lời sai, để tránh đưa lỗi vào phiên bản tiếp theo | Người chỉnh sửa prompt | Không nhận ra câu từng đúng nay bị sai | |
-| 17 | Nguyễn Văn Ngọc Sơn | Khi job huấn luyện hoặc tinh chỉnh mô hình thất bại, muốn xác định bước lỗi và nguyên nhân cụ thể, để hạn chế các lần chạy lại không cần thiết | Người chạy huấn luyện / tinh chỉnh mô hình | Khó xác định bước lỗi và nguyên nhân | |
-| 18 | Nguyễn Văn Ngọc Sơn | Khi PM/BA hỏi hệ thống đang sai ở những tình huống nào, muốn cung cấp các nhóm lỗi, ví dụ và tần suất có thể đối chiếu, để nhóm chọn đúng việc cần sửa trước | PM/BA và người cung cấp thông tin lỗi | Thiếu nhóm lỗi, ví dụ, tần suất có thể đối chiếu | |
+| 1 | Nguyễn Quang Đạo | Kiểm tra các điều khoản bất lợi trong hợp đồng dịch vụ so với quy định chuẩn của công ty | Nhân viên pháp chế, Trưởng phòng kinh doanh | Đọc dò từng dòng trong 30–40 trang và chép lại các điểm bất lợi (240–300 phút/hợp đồng) | Nhóm không có hợp đồng thật dài 30–40 trang và không có luật sư nội bộ để kiểm chứng ngay trong buổi lab thì đo baseline thế nào? (Trần Quốc Đông) |
+| 2 | Nguyễn Quang Đạo | Đọc hiểu và phân loại tin nhắn/email phàn nàn của khách hàng để chuyển đúng người | Nhân viên trực hỗ trợ, Trưởng nhóm CSKH | Đọc hiểu tin nhắn ngắn/cụt ngủn và đoán bộ phận xử lý (10–15 phút/tin, ~20% chuyển nhầm) | Nếu khách nhắn quá ngắn hoặc không dấu thì bộ lọc từ khóa (Rule) có giải quyết được 70–80% trước khi dùng AI không? (Nguyễn Văn Ngọc Sơn) |
+| 3 | Nguyễn Quang Đạo | Kiểm tra định dạng và hạn nộp bài tập của sinh viên trước khi khóa cổng nộp bài | Trợ giảng (TA), Giảng viên | Tải và mở từng file của 60–80 sinh viên để kiểm tra tên file và lỗi hỏng trang (135–150 phút/lớp) | Cụm "kiểm tra định dạng" có thể giải quyết hoàn toàn bằng script đối chiếu tên file trên Google Drive (Rule) mà không cần AI phải không? (Hồ Sỹ Tùng) |
+| 4 | Đỗ Cao Cường | Chọn món và đặt cơm trưa trên Grab trong giờ nghỉ ngắn: khi xong việc lúc 12h mà giờ nghỉ chỉ có ít phút, muốn có cơm đúng lúc để kịp ăn và quay lại làm việc | Nhân viên văn phòng có giờ nghỉ trưa ngắn | Đặt sau 12h vì trong giờ làm không để ý tới việc đặt, nên 30–45 phút chọn và chờ giao rơi vào giờ nghỉ (ước lượng) | Trong 30–45 phút đó phần chờ giao chiếm 15–30 phút, vậy chỉ cần đặt báo thức lúc 11h20 để đặt sớm (No AI) là giải quyết triệt để đúng không? (Trần Đức Mạnh) |
+| 5 | Đỗ Cao Cường | Giải thích lại cùng một câu hỏi cho đồng nghiệp, bạn học: muốn có sẵn chỗ để họ tự tra, không phải giải thích lại từ đầu | Người được hỏi (kỹ sư, trưởng nhóm, sinh viên), đồng nghiệp và bạn học | Giải thích lại từ đầu, khoảng 30 phút–1 giờ/lần, 1–2 lần/tuần (ước lượng ban đầu; sau survey hiệu chỉnh về phổ biến 15–30 phút/lần) | Phần tốn 30–60 phút là do phải tìm lại câu trả lời cũ hay do phải ngồi giải thích lại từ đầu, và các câu hỏi có đủ giống nhau để viết sẵn 1 chỗ (FAQ) không? (Nguyễn Quang Đạo, Trần Đức Mạnh) |
+| 6 | Đỗ Cao Cường | Sắp xếp ưu tiên công việc mỗi sáng: muốn biết ngay việc nào làm trước, không mất thời gian sắp xếp lại | Người đi làm tự sắp xếp công việc | Khoảng 15 phút mỗi sáng, 4–5 ngày/tuần để gom việc và cân nhắc thứ tự ưu tiên (ước lượng) | Nếu chốt sẵn 3 việc quan trọng nhất từ cuối chiều hôm trước vào 1 to-do list duy nhất thì buổi sáng có còn mất 15 phút nữa không? (Hồ Sỹ Tùng) |
+| 7 | Hồ Sỹ Tùng | Tìm kiếm ảnh chụp màn hình theo nội dung trong điện thoại | Học sinh, sinh viên, nhân viên văn phòng hay lưu screenshot | Lướt tìm thủ công qua hàng trăm ảnh và mở từng ảnh kiểm tra (8–10 phút/lần) | "Tìm kiếm theo nội dung" là tên tính năng (solution); hơn nữa iOS và Google Photos đã có sẵn OCR tìm chữ trong ảnh thì còn khoảng trống nào chưa giải? (Nguyễn Quang Đạo) |
+| 8 | Hồ Sỹ Tùng | Tổng hợp công việc và deadline từ nhiều ứng dụng khác nhau | Sinh viên, nhân viên làm việc trên nhiều ứng dụng (Gmail, Slack, Discord) | Mở từng ứng dụng kiểm tra và chép tay các task/deadline vào chung một danh sách (20–25 phút/ngày) | Công việc và deadline đang nằm ở những ứng dụng nào, mỗi lần gom mất bao nhiêu phút, và vì sao đây khác với sắp xếp ưu tiên mỗi sáng (#6)? (Đỗ Cao Cường, Trần Quốc Đông) |
+| 9 | Hồ Sỹ Tùng | Tổng hợp ưu và nhược điểm sản phẩm từ nhiều đánh giá online | Người thường xuyên mua sắm trực tuyến | Đọc hàng chục bình luận trên nhiều nền tảng và tự so sánh ưu/nhược điểm (30–35 phút/sản phẩm) | Các sàn TMĐT lớn hiện đã có mục tóm tắt đánh giá tự động và bộ lọc theo số sao/hình ảnh, người mua có thực sự cần thêm công cụ riêng không? (Trần Quốc Đông) |
+| 10 | Trần Quốc Đông | Khiếu nại sản phẩm không đúng mô tả được xử lý chậm | Người mua hàng trực tuyến, Nhân viên CSKH | Nhân viên đọc nội dung, đối chiếu hình ảnh với mô tả sản phẩm và phân loại thủ công (~10 phút/khiếu nại) | Nguyên nhân chính khiến khiếu nại xử lý chậm nằm ở bước nhân viên phân loại thủ công hay do phải chờ phía người bán xác minh và phê duyệt hoàn tiền? (Đỗ Cao Cường) |
+| 11 | Trần Quốc Đông | Người mua khó nhận biết đánh giá giả | Người mua hàng trực tuyến, người bán uy tín | Đọc và đối chiếu nhiều bình luận, hình ảnh, video để tự phán đoán độ tin cậy (15–20 phút/sản phẩm) | Người mua bên ngoài sàn không có dữ liệu log tài khoản hay lịch sử giao dịch thật thì lấy dữ liệu đầu vào ở đâu để xác minh đánh giá giả? (Nguyễn Văn Ngọc Sơn) |
+| 12 | Trần Quốc Đông | Người mua mất nhiều thời gian so sánh sản phẩm | Người mua hàng trực tuyến | Mở nhiều trang web để đọc thông số, giá cả, bảo hành và đối chiếu thủ công (30–60 phút/lần chọn mua) | Với các sản phẩm tiêu dùng phổ thông, bảng so sánh thông số và bộ lọc giá có sẵn trên web đã đủ giải quyết chưa? (Hồ Sỹ Tùng) |
+| 13 | Trần Đức Mạnh | Quản lý và đối soát xe ra vào bãi xe giờ cao điểm | Nhân viên bảo vệ trực chốt soát vé, người gửi xe | Bảo vệ nhìn mắt thường đối chiếu biển số và gõ tay lại khi thẻ từ bị mờ/lỗi (30–60 giây/xe, gây ùn ứ 10–15 phút giờ cao điểm) | Có thực sự cần đưa Computer Vision vào nhận diện biển số không, hay chỉ cần thay thẻ mờ và phân làn xe hợp lý (No AI / Rule) là hết ùn tắc? (Trần Quốc Đông) |
+| 14 | Trần Đức Mạnh | Tự động hóa tiếp nhận và điều phối lịch hẹn phòng khám | Nhân viên lễ tân phòng khám/spa, khách hàng đặt lịch | Lễ tân tra cứu sổ lịch thủ công, nhắn qua lại (5–10 phút/khách) và gọi điện nhắc lịch cuối ngày (1–2 giờ/ngày) | Nếu gửi link đặt lịch cố định (như Calendly/Google Calendar) kèm tin nhắn nhắc tự động theo giờ thì đã giải quyết được bao nhiêu phần trăm? (Đỗ Cao Cường) |
+| 15 | Trần Đức Mạnh | Tóm tắt và trích xuất phương pháp/dataset từ paper PDF | Sinh viên năm cuối làm đồ án, học viên cao học | Cuộn tìm phần Experiment/Method trong 20–30 paper và gõ tay phương pháp, dataset, metric vào bảng Excel (45–60 phút/paper) | Rủi ro mô hình trích xuất sai số liệu từ bảng biểu phức tạp rất cao, làm sao sinh viên tin tưởng mà không phải đọc lại toàn bộ bài báo? (Nguyễn Quang Đạo, Nguyễn Văn Ngọc Sơn) |
+| 16 | Nguyễn Văn Ngọc Sơn | Khi chỉnh sửa prompt của tính năng sinh câu trả lời tự động, muốn nhận ra những câu hỏi trước đây trả lời đúng nhưng bản mới lại trả lời sai, để tránh đưa lỗi vào phiên bản tiếp theo | AI Engineer, QA, nhóm sản phẩm | Đọc và chấm thủ công 20 output sau mỗi lần sửa prompt (27/62 phút mỗi lần, 2 lần/tuần) | Kiểm thử hồi quy prompt đã có các công cụ eval sẵn (như promptfoo, LangSmith); nếu viết rõ rubric pass/fail và dùng công cụ đó thì phần việc còn lại có còn đủ đau không? (Nguyễn Quang Đạo) |
+| 17 | Nguyễn Văn Ngọc Sơn | Khi job huấn luyện hoặc tinh chỉnh mô hình thất bại, muốn xác định bước lỗi và nguyên nhân cụ thể, để hạn chế các lần chạy lại không cần thiết | AI Engineer theo dõi fine-tuning, kỹ sư hạ tầng | Mở log dài để dò tìm dòng/bước gây lỗi và đối chiếu cấu hình (21/60 phút mỗi sự cố, 2 sự cố/tháng) | Tần suất chỉ 2 sự cố/tháng (120 phút/tháng) thì impact thời gian có quá nhỏ để ưu tiên so với việc chuẩn hóa structured logging và dry-run trước khi chạy không? (Trần Đức Mạnh) |
+| 18 | Nguyễn Văn Ngọc Sơn | Khi PM/BA hỏi hệ thống đang sai ở những tình huống nào, muốn cung cấp các nhóm lỗi, ví dụ và tần suất có thể đối chiếu, để nhóm chọn đúng việc cần sửa trước | AI Engineer, PM/BA | Đọc và phân nhóm lỗi bằng tay cho ~18 case mỗi yêu cầu (26/66 phút/yêu cầu, 3 yêu cầu/tuần) | Nếu chốt sẵn bộ 6 nhóm lỗi cố định (taxonomy) và bắt buộc người báo lỗi chọn loại lỗi ngay trên biểu mẫu (Rule tại nguồn) thì bước phân loại tay có biến mất không? (Hồ Sỹ Tùng) |
 
-*Dấu "—" nghĩa là thành viên chưa cung cấp, điền khi pitch. Cột "Câu hỏi phản biện" để trống cho đến khi nhóm pitch (CP3 bước 1, không dùng AI).*
+*Ghi chú: Toàn bộ 18 candidate đã được 6 thành viên trình bày và đặt câu hỏi phản biện chéo trực tiếp tại phiên Pitch CP3 (không dùng AI).*
 
 ### 2.2. Cluster
 
@@ -77,13 +77,14 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 *Điểm do nhóm chấm (thang 1–5). Tổng đã kiểm tra lại: #5 = 30, #8 = 19, #15 = 24. #5 dẫn đầu, #8 thấp nhất vì thiếu thông tin về actor, quy trình và bằng chứng.*
 
-**Phiếu của Đỗ Cao Cường** (chọn nhất, loại nhất, câu hỏi phản biện; phiếu của các thành viên khác thêm vào đây khi có):
+**Tóm tắt phiếu nhận định của các thành viên trong nhóm:**
 
-- Chọn nhất: #5, vì có số đo (30 phút–1 giờ/lần, 1–2 lần/tuần, ước lượng), actor rõ, và dễ thử cách đơn giản (FAQ) rồi đo lại.
-- Muốn loại nhất: #8, vì chưa rõ actor, nguồn việc và số phút, lại dễ trùng với việc sắp xếp ưu tiên mỗi sáng (#6).
-- Câu hỏi phản biện (hỏi #8): Công việc và deadline đang nằm ở những ứng dụng nào, mỗi lần gom mất bao nhiêu phút, và vì sao đây khác với sắp xếp ưu tiên mỗi sáng?
+- **Đỗ Cao Cường:** Chọn nhất **#5** vì có số đo, actor rõ và dễ thử cách đơn giản (FAQ) rồi đo lại; muốn loại nhất **#8** vì chưa rõ actor, nguồn việc và dễ trùng với #6.
+- **Nguyễn Quang Đạo:** Ban đầu pitch **#1** (kiểm tra hợp đồng), nhưng sau phản biện đã đồng ý rút #1 vì không có hợp đồng thật 30–40 trang và luật sư nội bộ trong buổi lab; chuyển sang chọn **#5** vì có sẵn đối tượng để khảo sát ngay và dễ đối chiếu từ mức No AI.
+- **Trần Đức Mạnh:** Đưa **#15** vào shortlist nhưng đồng thuận chọn **#5** làm bài toán chính vì #15 có rủi ro trích sai số liệu từ bảng biểu cao; chất vấn thêm #5 về rào cản hành vi liệu người hỏi có chịu tự tra tài liệu hay không.
+- **Hồ Sỹ Tùng, Trần Quốc Đông, Nguyễn Văn Ngọc Sơn:** Thống nhất chọn **#5** (30/35 điểm) vì đạt điểm cao nhất trên cả 7 tiêu chí, quy trình rõ ràng và kiểm chứng được ngay bằng survey trong buổi học.
 
-**Candidate được chọn:** #5 · Khi đồng nghiệp hoặc bạn học hỏi lại một câu đã được trả lời, người được hỏi phải giải thích lại từ đầu, khoảng 2 lần/tuần và khoảng 15–30 phút mỗi lần (survey 10 người, ước lượng). *(Bản nháp, chờ cả nhóm xác nhận.)*
+**Candidate được chọn:** #5 · Khi đồng nghiệp hoặc bạn học hỏi lại một câu đã được trả lời, người được hỏi phải giải thích lại từ đầu, khoảng 2 lần/tuần và khoảng 15–30 phút mỗi lần (survey 10 người, ước lượng).
 
 **Vì sao chọn:**
 
@@ -96,9 +97,9 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 - **#8 Tổng hợp công việc và deadline từ nhiều ứng dụng:** chưa rõ actor, nguồn việc và số phút. Dễ trùng với việc sắp xếp ưu tiên mỗi sáng (#6). Có thể quay lại nếu người đưa ra bổ sung số liệu.
 - **#15 Đọc paper PDF dài để lấy phương pháp và dataset:** pain thật, nhưng rủi ro trích sai số liệu từ bảng biểu cao, khó đưa ra tiêu chí đạt trong khuôn khổ lab. Chưa có số đo thời gian đọc cho từng người.
-- **Các candidate ngoài shortlist (#1–#4, #6, #7, #9–#14, #16–#18):** chưa được chấm điểm đầy đủ vì thiếu actor, bottleneck hoặc số liệu. Nhóm có thể đưa lại vào shortlist nếu bổ sung được dữ kiện.
+- **Các candidate ngoài shortlist (#1–#4, #6, #7, #9–#14, #16–#18):** đã được rà soát tại phiên Pitch; các bài toán chuyên sâu (#1 hợp đồng pháp lý, #13 bãi xe, #16–#18 kiểm thử/huấn luyện mô hình) khó tiếp cận mẫu khảo sát ngoài nhóm ngay trong phạm vi buổi lab hoặc giải quyết tốt hơn bằng Rule/công cụ có sẵn.
 
-**Xử lý bất đồng (nếu có):** Chưa ghi nhận bất đồng. Sẽ bổ sung ở đây nếu có ý kiến khác về candidate được chọn.
+**Xử lý bất đồng (nếu có):** Ở đầu phiên thảo luận CP3, một số thành viên quan tâm tới các bài toán thiên về kỹ thuật AI (#1 rà soát hợp đồng, #15 đọc paper PDF, #16 kiểm thử hồi quy prompt). Sau khi phản biện về tính khả thi khi kiểm chứng (CP4) và rủi ro ảo giác số liệu, cả 6 thành viên đạt đồng thuận 100% chọn candidate #5 và giữ các bài toán còn lại cho các vòng nghiên cứu sau.
 
 ---
 
@@ -179,56 +180,54 @@ Tổng hợp:
 
 ## 4. Quy trình trước/sau (CP5)
 
-> **Bản nháp do AI soạn từ dữ kiện đã có (Problem Card #2 của Đỗ Cao Cường). Nhóm phải đối chiếu với thực tế và với kết quả survey ở mục 3.2 trước khi nộp.** Số phút ghi "?" là chưa đo.
-
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
+Sơ đồ quy trình hiện tại (đã đối chiếu với kết quả survey 10 người ở mục 3.2):
 
 ```text
-HIỆN TẠI — khoảng 30 phút–1 giờ/lần, khoảng 1–2 lần/tuần (ước lượng)
+HIỆN TẠI — phổ biến 15–30 phút/lần (nặng nhất 30–60 phút), trung bình ~2 lần/tuần (~65 phút/tuần/người)
 
-[Người hỏi nhắn hoặc hỏi lại câu cũ: ?'] → [Tôi nhớ hoặc tìm lại câu trả lời: ?']
-→ [Tôi giải thích lại từ đầu: 30–60'] ← BOTTLENECK
-→ [Người hỏi làm thử, hỏi tiếp nếu chưa hiểu: ?']
+[1. Người hỏi nhắn/hỏi lại câu cũ: ~2'] → [2. Người được hỏi nhớ hoặc tìm lại câu trả lời cũ: ~3–5']
+→ [3. Người được hỏi giải thích lại từ đầu: 15–30' (nặng nhất 30–60')] ← BOTTLENECK
+→ [4. Người hỏi làm thử và hỏi xác nhận lại nếu chưa rõ: ~5']
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | Đồng nghiệp, bạn học | Một câu hỏi đã từng được trả lời | Tin nhắn hoặc câu hỏi trực tiếp | ? | Kênh: chưa xác định (chat nhóm, hỏi trực tiếp) |
-| 2 | Người được hỏi | Câu hỏi | Nhớ lại hoặc tìm lại câu trả lời cũ | ? | Chưa rõ có phải tìm lại hay nhớ ngay |
-| 3 | Người được hỏi | Câu trả lời cũ | Giải thích lại từ đầu | 30 phút–1 giờ/lần (ước lượng) | Bước tốn thời gian nhất |
-| 4 | Người hỏi | Lời giải thích | Làm thử, hỏi tiếp nếu chưa hiểu | ? | Có thể kéo dài nếu chưa hiểu |
+| 1 | Đồng nghiệp, bạn học (người hỏi) | Vướng mắc trùng với câu hỏi đã từng được trả lời trước đó | Tin nhắn trên kênh chat nhóm (Zalo/Discord/Slack) hoặc câu hỏi trực tiếp | ~2 phút/lần; trung bình ~2 lần/tuần | Người hỏi thường nhắn hỏi ngay vì không có chỗ tra cứu tập trung |
+| 2 | Người được hỏi (kỹ sư, trưởng nhóm, sinh viên) | Câu hỏi của đồng nghiệp / bạn học | Nhớ lại hoặc cuộn tìm lại câu trả lời/lệnh hướng dẫn trong lịch sử chat cũ | ~3–5 phút/lần | Lịch sử chat bị trôi nên khó tìm lại nhanh đoạn giải thích cũ |
+| 3 | Người được hỏi | Nội dung câu trả lời / quy trình xử lý | Gõ tin nhắn dài hoặc ngồi giải thích lại từ đầu từng bước | **Phổ biến 15–30 phút/lần** (30–60 phút ở 3/10 người trong survey) | **Bước nghẽn chính (Bottleneck)** — làm ngắt quãng công việc đang làm |
+| 4 | Người hỏi | Lời giải thích của người được hỏi | Thao tác làm thử, gửi ảnh màn hình hỏi tiếp nếu vướng bước phụ | ~5 phút/lần | Kéo dài hơn nếu lời giải thích miệng thiếu bước hoặc thiếu câu lệnh mẫu |
 
-**Bottleneck chính:** Bước 3, giải thích lại từ đầu. *Cập nhật sau survey (mục 3.2):* phổ biến nhất khoảng 15–30 phút mỗi lần, 30–60 phút ở 3/10 người; khoảng 2 lần/tuần trung bình. Con số 30 phút–1 giờ ở sơ đồ là baseline ban đầu của bản nháp.
+**Bottleneck chính:** Bước 3 — giải thích lại từ đầu. Dữ liệu survey 10 người (mục 3.2) cho thấy mức phổ biến nhất là **15–30 phút/lần** (4/10 người), mức **30–60 phút/lần** (3/10 người, rơi vào Trưởng nhóm và Kỹ sư phần mềm), tần suất trung bình khoảng **2 lần/tuần** (~4 lần/2 tuần), tương đương **~65 phút/tuần/người**.
 
 ### 4.2. Quy trình tương lai
 
-Mức chọn tạm thời: **No AI**. Bước nào cũng do con người, thêm một chỗ có sẵn câu trả lời (FAQ hoặc tin ghim). Chưa có bước nào do AI hoặc Rule xử lý.
+Mức chọn: **No AI**. Toàn bộ các bước đều do con người thực hiện thông qua một **trang FAQ dùng chung** (hoặc tin nhắn ghim ở đầu kênh chung) gồm các câu hỏi thường gặp nhất. Chưa cần bước xử lý tự động bằng Rule hay AI.
 
 ```text
-TƯƠNG LAI — No AI
+TƯƠNG LAI — No AI (Trang FAQ dùng chung + Tin ghim)
 
-[Người hỏi có câu hỏi] → [Tự tìm trong FAQ / tin ghim]  (con người)
-     ├── Tìm thấy → xong
-     └── Không thấy → [Hỏi người được hỏi] (con người)
-                         → [Người được hỏi trả lời]
-                         → [Thêm câu hỏi và câu trả lời mới vào FAQ]  (con người)
+[1. Người hỏi gặp vướng mắc] → [2. Tự tra trong FAQ / tin ghim: ≤ 2']  (CON NGƯỜI)
+     ├── Tìm thấy câu trả lời → [3a. Làm theo hướng dẫn trong FAQ: ~3'] → Xong (người được hỏi tốn 0' hoặc chỉ ≤ 1' gửi link)
+     └── Không thấy (câu hỏi mới) → [3b. Nhắn hỏi người được hỏi] (CON NGƯỜI)
+                                        → [4. Người được hỏi giải thích trực tiếp: 15–30'] (CON NGƯỜI)
+                                        → [5. Người phụ trách cập nhật câu hỏi lặp lại ≥ 2 lần vào FAQ: ~5'/tuần] (CON NGƯỜI — HITL)
 
-Boundary: không có AI ở quy trình này.
-Phương án quay về: nếu người hỏi vẫn không tự tra được, người được hỏi giải thích trực tiếp như hiện tại.
-Người kiểm tra: người duy trì FAQ rà lại nội dung hằng tuần (chưa xác định người).
+BOUNDARY: Chưa dùng AI. Nếu về sau thêm AI hỗ trợ tra cứu thì AI chỉ được trích xuất từ các mục FAQ đã được con người duyệt, tuyệt đối không tự suy diễn câu trả lời ngoài FAQ.
+PHƯƠNG ÁN QUAY VỀ: Nếu người hỏi không tìm thấy trong FAQ hoặc tài liệu FAQ chưa bao phủ tình huống đặc thù, quay về hỏi và giải thích trực tiếp giữa người với người như quy trình hiện tại.
+NGƯỜI KIỂM TRA (HITL): Người phụ trách duy trì FAQ của nhóm (Nhóm trưởng phối hợp cùng người được hỏi nhiều nhất) rà soát và cập nhật nội dung vào cuối mỗi tuần.
 ```
 
 ### 4.3. Before / after
 
-| Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
+| Chỉ số | Trước (As-Is) | Sau (To-Be kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | 4 | 2 khi FAQ có câu trả lời, 4 khi không | Kỳ vọng, chưa đo |
-| Tổng thời gian | 30–60 phút/lần ở bản nháp; survey cho thấy phổ biến 15–30 phút (ước lượng) | ≤ 5 phút/lần khi có FAQ (mục tiêu đề xuất) | Cần đo thật trong pilot |
-| Số bước thủ công | 3 | 1 khi FAQ có câu trả lời | Bước còn lại: người hỏi tự tra |
-| Bottleneck chính | Giải thích lại từ đầu | Viết FAQ một lần, cập nhật khi có câu mới | |
-| Rủi ro mới phát sinh | — | FAQ lỗi thời, người hỏi không đọc, không ai duy trì | Xem mục 8.1 |
+| Số bước | 4 bước mỗi lần hỏi | 2 bước khi câu hỏi đã có trong FAQ (4–5 bước khi gặp câu hỏi mới cần bổ sung vào FAQ) | Giảm tải trực tiếp cho người được hỏi |
+| Tổng thời gian của người được hỏi | Phổ biến **15–30 phút/lần** (30–60 phút ở bản nháp ban đầu và ở nhóm Trưởng nhóm/Kỹ sư); trung bình **~65 phút/tuần/người** | **≤ 5 phút/lần** khi câu hỏi đã có trong FAQ (chỉ gửi link hoặc nhắc xem tin ghim) | Đo thực tế trong 2 tuần pilot |
+| Số bước thủ công của người được hỏi | 2 bước chính mỗi lần bị hỏi (tìm lại + giải thích lại từ đầu) | 0–1 bước khi đã có trong FAQ (chỉ gửi link); 1 lần rà soát cập nhật FAQ hằng tuần (~5–10 phút) | Chuyển từ giải thích lặp lại sang chuẩn hóa 1 lần |
+| Bottleneck chính | Bước 3: Giải thích lại từ đầu mỗi khi có người hỏi | Viết rõ 5 mục FAQ ban đầu và duy trì cập nhật khi có câu hỏi mới lặp lại ≥ 2 lần | Điểm nghẽn mới nhẹ hơn và kiểm soát được theo lịch cố định |
+| Rủi ro mới phát sinh | — | FAQ lỗi thời nếu thiếu người duy trì; người hỏi vẫn quen nhắn hỏi trực tiếp mà không mở FAQ đọc trước | Kiểm soát qua pilot 2 tuần và ngưỡng dừng ở mục 8.2 |
 
 ---
 
@@ -238,16 +237,16 @@ Người kiểm tra: người duy trì FAQ rà lại nội dung hằng tuần (c
 |---|---|
 | **Actor** | Người được hỏi lại (thành viên trong nhóm học và làm việc), cùng đồng nghiệp và bạn học là người hỏi. |
 | **Quy trình** | Người hỏi nhắn hoặc hỏi lại câu cũ, người được hỏi nhớ hoặc tìm lại câu trả lời rồi giải thích lại từ đầu, người hỏi làm thử và hỏi tiếp. |
-| **Bottleneck** | Bước giải thích lại từ đầu, khoảng 30 phút–1 giờ mỗi lần (ước lượng). |
+| **Bottleneck** | Bước giải thích lại từ đầu, khoảng 30 phút–1 giờ mỗi lần (ước lượng ban đầu trước khi đối chiếu toàn bộ survey). |
 | **Impact** | Khoảng 0,5–2 giờ/tuần cho người được hỏi (ước lượng, từ 1–2 lần/tuần). Làm gián đoạn việc đang làm. Người hỏi phải chờ người được hỏi rảnh. |
 | **Success Metric** (baseline → target, cách đo) | Thời gian người được hỏi bỏ ra cho một lần bị hỏi lại câu đã có: từ 30 phút–1 giờ xuống ≤ 5 phút (mục tiêu đề xuất). Cách đo: ghi số phút mỗi lần bị hỏi lại trong 2 tuần, trước và sau khi có FAQ. |
 | **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | Chưa dùng AI. Người được hỏi vẫn trả lời các câu mới chưa có trong FAQ. |
 
-Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
+**Phản biện nhận được cho Problem Statement v0 (từ AI và các thành viên trong nhóm) và cách nhóm xử lý:**
 
-- AI chỉ ra: có thể chỉ cần một trang FAQ và gửi link là đủ, chưa cần giải pháp khác. Đồng ý (ghi ở báo cáo cá nhân của Đỗ Cao Cường).
-- AI chỉ ra: giả định "người hỏi chịu tự tra" chưa có bằng chứng. Đồng ý, đây là giả định #3 cần kiểm chứng bằng pilot (survey mới cho thấy ý định, chưa phải hành vi).
-- Chưa ghi nhận phản biện từ các thành viên khác. Sẽ bổ sung ở đây nếu có.
+- **AI và bạn Đỗ Cao Cường, Hồ Sỹ Tùng chỉ ra:** Ở quy mô nhóm hiện tại, chỉ cần viết một trang FAQ chuẩn và ghim link là đủ (mức No AI), chưa cần nhảy sang xây công cụ AI. → **Nhóm đồng ý:** Giữ mức can thiệp là **No AI**.
+- **Bạn Trần Đức Mạnh và Trần Quốc Đông phản biện từ dữ liệu Survey CP4:** Baseline `30 phút–1 giờ/lần` ở v0 đang bị cao hơn thực tế khảo sát (chỉ 3/10 người mất 30–60 phút, còn phổ biến nhất là `15–30 phút/lần`). Ngoài ra, câu hỏi "Sẵn sàng dùng FAQ" (7/10 Có) mới chỉ là ý định nói ra theo *The Mom Test*. → **Nhóm đồng ý:** Sửa lại baseline ở Problem Statement v1 về `15–30 phút/lần` (~65 phút/tuần/người) và thiết kế đợt pilot 2 tuần để đo hành vi thật.
+- **Bạn Nguyễn Quang Đạo và Nguyễn Văn Ngọc Sơn phản biện về Metric & Boundary:** Nếu Success Metric ở v0 chỉ đo "số phút mỗi lần trả lời" thì chưa biết người hỏi có thực sự tự tra FAQ để giảm số lần hỏi lặp lại hay không; đồng thời cần ghi rõ ai là người kiểm tra/duy trì FAQ hàng tuần và ranh giới cấm AI bịa câu trả lời ngoài FAQ nếu về sau nâng cấp. → **Nhóm đồng ý:** Bổ sung chỉ số thứ hai (số lần bị hỏi lại giảm từ `1–2 lần/tuần` xuống `≤ 1 lần/2 tuần`) và làm rõ điều kiện Boundary + người kiểm tra ở bản **Problem Statement v1** (Mục 7).
 
 ---
 
@@ -257,7 +256,7 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 Bài của nhóm nằm ở ô: **mơ hồ thấp, vận hành đơn giản** ("rule hoặc script — vùng ngọt" trong ma trận của khóa).
 
-Vì sao: Cùng một câu hỏi lặp lại, nên câu trả lời đã biết và ổn định, không mơ hồ. Việc vận hành chỉ là tìm một câu trả lời có sẵn và gửi cho người hỏi, không cần gọi công cụ hay gây tác động ra ngoài. *(Nhận định này dựa trên giả định #4 "câu hỏi đủ giống nhau", chưa kiểm chứng.)*
+Vì sao: Cùng một câu hỏi lặp lại, nên câu trả lời đã biết và ổn định, không mơ hồ. Việc vận hành chỉ là tìm một câu trả lời có sẵn và gửi cho người hỏi, không cần gọi công cụ hay gây tác động ra ngoài. *(Nhận định này dựa trên giả định #4 "câu hỏi đủ giống nhau", đã được xác nhận một phần qua survey với 6/10 "hầu hết giống nhau" và 4/10 "giống một phần".)*
 
 ### 6.2. So sánh 4 mức
 
@@ -304,7 +303,7 @@ Vì sao: Cùng một câu hỏi lặp lại, nên câu trả lời đã biết v
 | **Boundary** | Chưa dùng AI. Nếu sau này thêm AI, chỉ được tìm trong FAQ đã được người duyệt, không tự trả lời ngoài FAQ, câu không có trong FAQ chuyển cho người. Người duy trì FAQ rà nội dung hằng tuần. |
 | **AI intervention point** | **Không có** (vì bài toán nằm ở vùng mơ hồ thấp × vận hành đơn giản, số lượng câu hỏi lặp lại ít và ổn định nên một trang FAQ viết tay đã đủ giải quyết mà chưa cần AI dự đoán hay sinh nội dung; điểm duy nhất chỉ cân nhắc về sau là bước "tìm mục FAQ phù hợp" nếu FAQ quá lớn và người hỏi khó tìm). |
 | **Mức chọn** | No AI |
-| **Rủi ro & người kiểm tra** | FAQ lỗi thời hoặc sai: người duy trì FAQ rà hằng tuần *(chưa xác định ai)*. Người hỏi không chịu tự tra: người được hỏi theo dõi số lần bị hỏi lại. Số liệu thời gian là ước lượng: cần đo thật trong 2 tuần. |
+| **Rủi ro & người kiểm tra** | FAQ lỗi thời hoặc sai: người phụ trách duy trì FAQ (Nhóm trưởng phối hợp cùng người được hỏi nhiều nhất) rà soát vào cuối mỗi tuần. Người hỏi không chịu tự tra: người được hỏi theo dõi số lần bị hỏi lại trong đợt pilot. Số liệu thời gian ở survey là ước lượng theo khoảng: cần bấm giờ đo thật trong 2 tuần pilot. |
 
 **Thay đổi so với v0 và lý do:**
 
@@ -345,11 +344,11 @@ Vì sao: Cùng một câu hỏi lặp lại, nên câu trả lời đã biết v
 
 ### 8.2. Kết luận
 
-**Quyết định:** **Go, phạm vi nhỏ** (pilot FAQ, mức No AI) *(bản nháp, chờ nhóm xác nhận)*
+**Quyết định:** **Go, phạm vi nhỏ** (pilot FAQ, mức No AI).
 
 **Lý do:** Survey 10 người xác nhận pain có thật (10/10 từng gặp, 7/10 từ 3 lần trong 2 tuần), 7/10 mất từ 15 phút mỗi lần, 6/10 cho rằng câu hỏi hầu hết giống nhau và 0/10 từ chối dùng FAQ. Giải pháp FAQ gần như không tốn chi phí và chưa có bằng chứng cần AI. Rủi ro còn lại: mẫu nhỏ, thiên lệch chọn mẫu, và ý định dùng FAQ chưa phải hành vi. Vì vậy chỉ đi phạm vi nhỏ.
 
-**Nếu Go — pilot nhỏ nhất:** Trong 2 tuần, viết một trang FAQ cho 5 câu hỏi hay bị hỏi lại nhất, ghim ở kênh chung và gửi link mỗi khi bị hỏi. Ghi số phút mỗi lần bị hỏi lại, trước và sau.
+**Nếu Go — pilot nhỏ nhất:** Trong 2 tuần, viết một trang FAQ cho 5 câu hỏi hay bị hỏi lại nhất (kèm câu lệnh/hướng dẫn chuẩn), ghim ở đầu kênh chung và gửi link mỗi khi bị hỏi. Ghi số phút mỗi lần bị hỏi lại và số lần câu đã có trong FAQ vẫn bị hỏi, trước và sau pilot.
 
 **Nếu Not Yet — cần kiểm chứng gì trước:** Pilot 2 tuần để xem người hỏi có thật sự tự tra FAQ không (giả định #3), và liệt kê cụ thể các câu hay bị hỏi lại để gom thành FAQ (giả định #4).
 
@@ -361,12 +360,12 @@ Vì sao: Cùng một câu hỏi lặp lại, nên câu trả lời đã biết v
 
 ## 9. Hạn chế và hướng tiếp theo
 
-- Survey chỉ có 10 người, cả 10 đều từng bị hỏi lại (có thể thiên lệch chọn mẫu), không có câu trả lời mở, và "sẵn sàng dùng FAQ" là ý định chứ chưa phải hành vi. Các số trung bình (4 lần/2 tuần, 25 phút/lần, 65 phút/tuần) là ước lượng từ khoảng giá trị giữa. Chưa có phỏng vấn.
-- Điểm shortlist ở mục 2.4 là điểm nhóm đã chấm. Phiếu của từng cá nhân chưa được lưu đầy đủ trong báo cáo 
-- Quy trình hiện tại và tương lai ở mục 4 là bản nháp, các bước và số phút chưa được quan sát trực tiếp.
-- Ngưỡng ở mục 7 và 8 (≤ 5 phút, 2 tuần, 2 lần) là mục tiêu đề xuất, chưa có căn cứ đo.
-- Phạm vi chỉ là việc bị hỏi lại, chưa phân biệt loại câu hỏi (kỹ thuật, quy trình, lịch học).
-- Hướng tiếp theo: chọn người duy trì FAQ, chạy pilot 2 tuần và đo, thu thêm phiếu chấm cá nhân nếu cần.
+- **Hạn chế về mẫu khảo sát:** Survey hiện mới thực hiện trên 10 người, cả 10 đều từng bị hỏi lại (có thể thiên lệch chọn mẫu), sử dụng câu hỏi đóng nên chưa có câu trích dẫn nguyên văn từ câu hỏi mở, và chỉ số "7/10 sẵn sàng dùng FAQ" mới phản ánh ý định tương lai chứ chưa phải hành vi thực tế theo *The Mom Test*. Các số trung bình (~4 lần/2 tuần, ~25 phút/lần, ~65 phút/tuần/người) được tính từ điểm giữa của khoảng giá trị khảo sát.
+- **Hạn chế về đo đếm quy trình:** Thời gian từng bước trong quy trình hiện tại và các ngưỡng mục tiêu ở mục 7, 8 (`≤ 5 phút/lần`, tìm thấy trong `≤ 2 phút`, cập nhật trong `1 tuần`) là ước lượng và mục tiêu đề xuất cho đợt pilot, cần bấm giờ thực nghiệm để hiệu chỉnh.
+- **Hướng tiếp theo ngay sau buổi lab:**
+  1. Chỉ định người phụ trách duy trì FAQ hằng tuần (Nhóm trưởng phối hợp cùng thành viên kỹ thuật trong nhóm).
+  2. Đưa 5 mục FAQ đầu tiên (đã phác thảo tại [`report/assets/cp6-eval-samples.md`](../assets/cp6-eval-samples.md)) lên kênh làm việc chung của nhóm và ghim cố định.
+  3. Chạy pilot trong 2 tuần, ghi nhật ký số lần bị hỏi lại và số phút xử lý thực tế để đánh giá theo đúng ngưỡng dừng tại mục 8.2.
 
 ## 10. Tài liệu tham khảo
 

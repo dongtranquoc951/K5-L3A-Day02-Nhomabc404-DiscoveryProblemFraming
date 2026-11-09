@@ -226,19 +226,6 @@ QUY TRÌNH HIỆN TẠI #3 — TỔNG 66 PHÚT/YÊU CẦU
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
-|---|---|---|
-| Pitch Problem Card | Trình bày 3 candidate problem: #1 Kiểm tra điều khoản hợp đồng, #2 Phân loại tin nhắn phàn nàn, #3 Kiểm tra quy cách nộp bài của sinh viên; pitch sâu Card #1. | Đóng góp 3 candidate vào bảng Pitch 18 ý của nhóm (mục 2.1 `group_report.md`). |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Với candidate #5 (giải thích lại câu hỏi cũ), phần tốn 30–60 phút là do phải tìm lại câu trả lời cũ hay do phải giải thích lại từ đầu? Các câu hỏi có đủ giống nhau để viết sẵn vào một chỗ không? | Nhóm tách được 2 giả định quan trọng: #2 (thời gian giải thích lại) và #4 (mức độ giống nhau của câu hỏi), đưa vào Assumption Map và khảo sát ở CP4. |
-| Nhận phản biện | Câu hỏi tôi nhận được: Với Card #1, nhóm không có hợp đồng thật dài 30–40 trang và không có luật sư nội bộ để kiểm chứng trong buổi lab thì đo baseline thế nào? | Tôi đã sửa gì: Đồng ý rút Card #1 khỏi shortlist vì không kiểm chứng được trong phạm vi một buổi lab; chuyển sang ủng hộ candidate #5 vì có sẵn người để khảo sát. |
-| Gom cluster / cây OST | Cùng nhóm gom #1, #3 vào Cluster C (Kiểm tra, phát hiện lỗi/sai lệch) và #2 vào Cluster B (Yêu cầu lặp lại xử lý bằng tay); rà lại câu chữ của #3 để tách phần giải pháp ("tự động kiểm tra") ra khỏi pain thật. | Cây OST có 4 nhánh Opportunity (mục 2.2, 2.3), không lẫn tên công cụ hay tính năng. |
-| Chọn candidate problem | Thảo luận và chấm điểm 7 tiêu chí cho 3 bài trong shortlist (#5, #8, #15). | Nhóm thống nhất chọn candidate #5: 30/35 điểm, cao nhất nhóm, dễ so sánh với mức No AI. |
-| Kiểm chứng / research | Tham gia phỏng vấn/khảo sát người thật sự phải giải thích lại câu hỏi cũ, hỏi theo The Mom Test về lần gần nhất họ gặp chuyện này và mất bao lâu, để kiểm chứng giả định #2 và #4. | Kết quả phỏng vấn/khảo sát được ghi ở mục 3 `group_report.md`, làm căn cứ để nhóm sửa problem. |
-| Quy trình nhóm | Góp ý khi nhóm vẽ quy trình hiện tại: đề nghị tách bước "tìm lại câu trả lời cũ" và bước "giải thích lại" để xác định đúng bước nghẽn. | Góp ý được nhóm cân nhắc khi chốt quy trình trước/sau và bottleneck (mục 4 `group_report.md`). |
-| Problem Statement | Phản biện Problem Statement v0: kiểm tra Success Metric đã có đủ baseline, target, cách đo chưa và Boundary đã ghi rõ AI không được làm gì chưa. | Góp phần vào các chỉnh sửa từ v0 sang v1 (mục 5 và 7 `group_report.md`). |
-| Mức can thiệp AI | Góp ý lập luận "vì sao không chọn mức đơn giản hơn": nếu các câu hỏi đủ giống nhau (giả định #4) thì FAQ hoặc template (No AI/Rule) có thể đã đủ. | Lập luận chọn mức can thiệp được ghi ở mục 6 `group_report.md`. |
-| Quyết định | Đồng ý với quyết định của nhóm sau khi thảo luận 4 rủi ro Value / Usability / Feasibility / Viability. | Quyết định và ngưỡng dừng được ghi ở mục 8 `group_report.md`. |
----
 
 ## 5. Dùng AI
 
@@ -253,27 +240,6 @@ QUY TRÌNH HIỆN TẠI #3 — TỔNG 66 PHÚT/YÊU CẦU
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**Qua phần trình bày của các thành viên, tôi nhận thấy cùng một vấn đề có thể được nhìn nhận theo nhiều góc độ khác nhau. Một vấn đề nghe có vẻ quan trọng chưa chắc đã phù hợp để lựa chọn nếu không có dữ liệu kiểm chứng hoặc không xác định được quy trình cụ thể. Tôi cũng nhận ra cần đánh giá vấn đề dựa trên mức độ ảnh hưởng, thời gian xử lý, khả năng đo lường và tính khả thi, thay vì chỉ dựa vào sự hấp dẫn của ý tưởng.
-
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**Trong quá trình thảo luận, nhóm có những ý tưởng thiên về giải pháp trước khi phân tích đầy đủ vấn đề. Chẳng hạn, khi xem xét việc giải thích lại các câu hỏi cũ, chúng tôi dễ nghĩ ngay đến công cụ tự động trả lời. Tuy nhiên, nhóm đã đặt câu hỏi liệu nguyên nhân thực sự là khó tìm lại câu trả lời hay phải giải thích lại từ đầu. Từ đó, nhóm tập trung mô tả nhu cầu, xác định bước nghẽn và cân nhắc giải pháp đơn giản như FAQ hoặc mẫu câu trả lời trước khi đề xuất sử dụng AI.
-
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**Ban đầu, tôi ưu tiên vấn đề kiểm tra điều khoản hợp đồng vì cho rằng công việc này đòi hỏi đọc nhiều thông tin và dễ xảy ra sai sót. Tuy nhiên, khi các thành viên phản biện về việc thiếu hợp đồng thực tế dài 30–40 trang và không có chuyên gia pháp lý để xác minh kết quả trong buổi lab, tôi nhận ra vấn đề khó kiểm chứng trong phạm vi thời gian cho phép. Vì vậy, tôi đồng ý rút vấn đề này khỏi danh sách ưu tiên và chuyển sang ủng hộ candidate #5 về việc giải thích lại câu hỏi cũ, vì có khả năng tiếp cận người gặp vấn đề để khảo sát trực tiếp.
-
-
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**Điểm đáng chú ý khi thực hiện bước kiểm chứng là phải phân biệt giữa nhận định ban đầu với những hành vi đã thực sự xảy ra. Đối với vấn đề giải thích lại câu hỏi cũ, hai giả định quan trọng cần làm rõ là thời gian thực tế dành cho việc giải thích lại và mức độ tương đồng giữa các câu hỏi. Điều này khiến tôi thận trọng hơn với nhận định rằng tự động hóa chắc chắn sẽ mang lại hiệu quả. Nếu câu hỏi đủ giống nhau, việc xây dựng FAQ hoặc chuẩn hóa câu trả lời có thể giải quyết được phần lớn vấn đề mà chưa cần AI.
-
-
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**Theo tôi, khó nhất là xác định đúng bottleneck và xây dựng success metric có thể đo lường. Ban đầu, rất dễ mô tả chung rằng công việc mất nhiều thời gian, nhưng cách diễn đạt đó chưa chỉ ra bước nào gây chậm trễ. Khi xây dựng Problem Statement, cần phân tách rõ các bước tìm lại thông tin và giải thích lại, xác định thời gian hiện tại, mục tiêu cải thiện và cách kiểm tra kết quả. Ngoài ra, boundary phải nêu rõ phạm vi được hỗ trợ và những quyết định vẫn cần con người kiểm soát.
-
-
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**Nếu thực hiện lại, tôi sẽ ưu tiên thu thập bằng chứng thực tế ngay từ bước lựa chọn vấn đề, thay vì dành nhiều thời gian cho những ý tưởng khó kiểm chứng. Tôi cũng sẽ chuẩn bị kỹ hơn các câu hỏi phản biện về tần suất xảy ra, tác động đo được và khả năng giải quyết bằng những công cụ sẵn có. Đặc biệt, tôi sẽ đề nghị nhóm kiểm tra các phương án No AI và Rule trước khi cân nhắc Workflow hoặc Agent. Điều này giúp tiết kiệm thời gian, hạn chế lựa chọn giải pháp quá phức tạp và làm cho quyết định cuối cùng có cơ sở hơn.
-
-
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.Bài toán nhóm lựa chọn là việc người thực hiện phải giải thích lại những câu hỏi đã từng được trả lời, gây tốn thời gian và công sức. Quy trình cần phân biệt bước tiếp nhận câu hỏi, tìm lại câu trả lời cũ, giải thích lại và phản hồi cho người hỏi. Nhóm xác định bước gây tốn thời gian nhất làm bottleneck để ưu tiên cải thiện. Success metric cần so sánh thời gian xử lý trước và sau khi áp dụng giải pháp, đồng thời theo dõi chất lượng câu trả lời. Boundary yêu cầu không sử dụng nội dung thiếu kiểm chứng và không để hệ thống tự đưa ra kết luận ngoài phạm vi thông tin được xác nhận. Về mức can thiệp, cần ưu tiên FAQ hoặc Rule nếu các câu hỏi có tính lặp lại cao; chỉ cân nhắc Workflow khi các phương án đơn giản không đáp ứng được. Cuối cùng, quyết định Go / Not Yet / No-Go phải dựa trên kết quả kiểm chứng, tính khả thi, bốn nhóm rủi ro và ngưỡng dừng đo được.
-
----
 
 ## 7. Tài liệu tham khảo
 
